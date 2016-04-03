@@ -14,71 +14,54 @@ lootWeapon_list =
 	[ // CIVIL
 		0,
 		[
-			"arifle_MK20C_F",
-			"arifle_MK20_F",
-			"arifle_TRG20_F",
-			"arifle_TRG21_F",
-			"Binocular",
-			"hgun_PDW2000_F",
-			"SMG_01_F",                         // Vermin .45 ACP
-			"SMG_02_F"                          // Sting 9mm
+			"CUP_arifle_AK47",
+			"CUP_arifle_AK74",
+			"CUP_arifle_AKM",
+			"CUP_arifle_FNFAL",
+			"CUP_lmg_minimi_railed",
+			"CUP_lmg_minimipara",
+			"CUP_arifle_M16A2",
+			"CUP_arifle_M4A1_Aim"                        
 		]
 	],
 	[ // MILITARY
 		1,
 		[
-			"arifle_Katiba_C_F",
-			"arifle_Katiba_F",
-			"arifle_Katiba_GL_F",
-			"arifle_Mk20C_F",
-			"arifle_Mk20_F",
-			"arifle_Mk20_GL_F",
-			"arifle_MXC_F",
-			"arifle_MXM_F",
-			"arifle_MX_F",
-			"arifle_MX_GL_F",
-			"arifle_MX_SW_F",
-			"arifle_SDAR_F",
-			"arifle_TRG20_F",
-			"arifle_TRG21_F",
-			"arifle_TRG21_GL_F",
-			"Binocular",
-			"hgun_PDW2000_F",
-			"LMG_Mk200_F",
-			"LMG_Zafir_F",
-			"Rangefinder",
-			"SMG_01_F",                         // Vermin .45 ACP
-			"SMG_02_F",                         // Sting 9mm
-			"srifle_EBR_F",
-			"srifle_GM6_F",
-			"srifle_LRR_F"
+			"CUP_arifle_AK47",
+			"CUP_arifle_AK74",
+			"CUP_arifle_AKM",
+			"CUP_arifle_FNFAL",
+			"CUP_lmg_minimi_railed",
+			"CUP_lmg_minimipara",
+			"CUP_arifle_M16A2",
+			"CUP_arifle_M4A1_Aim"  
 		]
 	],
 	[ // INDUSTRIAL
 		2,
 		[
-			"arifle_Mk20C_F",
-			"arifle_Mk20_F",
-			"arifle_TRG20_F",
-			"arifle_TRG21_F",
-			"arifle_Katiba_C_F",
-			"arifle_MXC_F",
-			"Binocular",
-			"SMG_01_F",                         // Vermin .45 ACP
-			"SMG_02_F"                          // Sting 9mm
+			"CUP_arifle_AK47",
+			"CUP_arifle_AK74",
+			"CUP_arifle_AKM",
+			"CUP_arifle_FNFAL",
+			"CUP_lmg_minimi_railed",
+			"CUP_lmg_minimipara",
+			"CUP_arifle_M16A2",
+			"CUP_arifle_M4A1_Aim"                         
 		]
 	],
 	[ // RESEARCH
 		3,
 		[
-			"arifle_Katiba_GL_F",
-			"arifle_MXC_F",
-			"arifle_MXM_F",
-			"arifle_MX_GL_F",
-			"Rangefinder",
-			"srifle_GM6_F",
-			"srifle_LRR_F"
-		]
+			"CUP_arifle_AK47",
+			"CUP_arifle_AK74",
+			"CUP_arifle_AKM",
+			"CUP_arifle_FNFAL",
+			"CUP_lmg_minimi_railed",
+			"CUP_lmg_minimipara",
+			"CUP_arifle_M16A2",
+			"CUP_arifle_M4A1_Aim"  
+		] 
 	]
 ];
 
@@ -92,107 +75,46 @@ lootMagazine_list =
 	[ // CIVIL
 		0,
 		[
-			//"16Rnd_9x21_Mag",
-			"9Rnd_45ACP_Mag",
-			"30Rnd_9x21_Mag",
-			"30Rnd_45ACP_Mag_SMG_01_tracer_green",
-			"30Rnd_556x45_Stanag_Tracer_Yellow",
-			"30Rnd_65x39_caseless_mag_Tracer",
-			"30Rnd_65x39_caseless_green_mag_Tracer"/*,
-			"Chemlight_blue",
-			"Chemlight_green",
-			"Chemlight_red",
-			"Chemlight_yellow"*/
+
+			"CUP_30Rnd_762x39_AK47_M",
+			"CUP_30Rnd_545x39_AK_M",
+			"CUP_30Rnd_762x39_AK47_M",
+			"CUP_20Rnd_762x51_FNFAL_M",
+			"CUP_200Rnd_TE4_Green_Tracer_556x45_M249",
+			"CUP_30Rnd_556x45_Stanag"
 		]
 	],
 	[ // MILITARY
 		1,
 		[
-			"100Rnd_65x39_caseless_mag",
-			"100Rnd_65x39_caseless_mag_Tracer",
-			"150Rnd_762x51_Box",
-			"150Rnd_762x51_Box_Tracer",
-			//"16Rnd_9x21_Mag",
-			"1Rnd_HE_Grenade_shell",
-			"1Rnd_Smoke_Grenade_shell",
-			"SmokeShell",
-			"SmokeShellPurple",
-			"SmokeShellBlue",
-			"SmokeShellGreen",
-			"SmokeShellYellow",
-			"SmokeShellOrange",
-			"SmokeShellRed",
-			"200Rnd_65x39_cased_Box",
-			"200Rnd_65x39_cased_Box_Tracer",
-			"20Rnd_556x45_UW_mag",
-			"20Rnd_762x51_Mag",
-			"20Rnd_762x51_Mag",
-			"30Rnd_45ACP_Mag_SMG_01",
-			"30Rnd_45ACP_Mag_SMG_01",
-			"30Rnd_556x45_Stanag",
-			"30Rnd_556x45_Stanag_Tracer_Yellow",
-			"30Rnd_65x39_caseless_green",
-			"30Rnd_65x39_caseless_green_mag_Tracer",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag_Tracer",
-			"30Rnd_9x21_Mag",
-			"30Rnd_9x21_Mag",
-			/*"3Rnd_HE_Grenade_shell",
-			"3Rnd_SmokeBlue_Grenade_shell",
-			"3Rnd_SmokeGreen_Grenade_shell",
-			"3Rnd_SmokeOrange_Grenade_shell",
-			"3Rnd_SmokePurple_Grenade_shell",
-			"3Rnd_SmokeRed_Grenade_shell",
-			"3Rnd_SmokeYellow_Grenade_shell",
-			"3Rnd_Smoke_Grenade_shell",*/
-			"5Rnd_127x108_Mag",
-			"7Rnd_408_Mag",
-			"9Rnd_45ACP_Mag",
-			"9Rnd_45ACP_Mag",
-			"APERSBoundingMine_Range_Mag",
-			"APERSMine_Range_Mag",
-			"APERSTripMine_Wire_Mag",
-			"ATMine_Range_Mag",
-			/*"Chemlight_blue",
-			"Chemlight_green",
-			"Chemlight_red",
-			"Chemlight_yellow",*/
-			"ClaymoreDirectionalMine_Remote_Mag",
-			"HandGrenade",
-			"MiniGrenade",
-			"SatchelCharge_Remote_Mag",
-			"SLAMDirectionalMine_Wire_Mag"
+			"CUP_30Rnd_762x39_AK47_M",
+			"CUP_30Rnd_545x39_AK_M",
+			"CUP_30Rnd_762x39_AK47_M",
+			"CUP_20Rnd_762x51_FNFAL_M",
+			"CUP_200Rnd_TE4_Green_Tracer_556x45_M249",
+			"CUP_30Rnd_556x45_Stanag"
 		]
 	],
 	[ // INDUSTRIAL
 		2,
 		[
-			"30Rnd_9x21_Mag",
-			"30Rnd_45ACP_Mag_SMG_01",
-			"30Rnd_556x45_Stanag",
-			"30Rnd_556x45_Stanag_Tracer_Yellow",
-			"30Rnd_65x39_caseless_green",
-			"30Rnd_65x39_caseless_green_mag_Tracer",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag_Tracer"/*,
-			"Chemlight_blue",
-			"Chemlight_green",
-			"Chemlight_red",
-			"Chemlight_yellow"*/
+			"CUP_30Rnd_762x39_AK47_M",
+			"CUP_30Rnd_545x39_AK_M",
+			"CUP_30Rnd_762x39_AK47_M",
+			"CUP_20Rnd_762x51_FNFAL_M",
+			"CUP_200Rnd_TE4_Green_Tracer_556x45_M249",
+			"CUP_30Rnd_556x45_Stanag"
 		]
 	],
 	[ // RESEARCH
 		3,
 		[
-			"20Rnd_556x45_UW_mag",
-			"30Rnd_556x45_Stanag",
-			"30Rnd_556x45_Stanag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_mag",
-			"30Rnd_65x39_caseless_green",
-			"30Rnd_65x39_caseless_green",
-			"5Rnd_127x108_Mag",
-			"7Rnd_408_Mag"
+			"CUP_30Rnd_762x39_AK47_M",
+			"CUP_30Rnd_545x39_AK_M",
+			"CUP_30Rnd_762x39_AK47_M",
+			"CUP_20Rnd_762x51_FNFAL_M",
+			"CUP_200Rnd_TE4_Green_Tracer_556x45_M249",
+			"CUP_30Rnd_556x45_Stanag"
 		]
 	]
 ];
@@ -210,41 +132,18 @@ lootItem_list =
 			"acc_flashlight",
 			"FirstAidKit",
 			"FirstAidKit",
-			"FirstAidKit",
-			"muzzle_snds_acp",                  // .45 ACP
-			"muzzle_snds_L",                    // 9mm
-			"optic_Aco",
-			"optic_ACO_grn",
-			"optic_aco_smg",
-			"optic_Holosight",
-			"optic_Holosight_smg"
+			"FirstAidKit"
 		]
 	],
 	[ // MILITARY
 		1,
 		[
-			"acc_flashlight",
-			"acc_pointer_IR",
 			"FirstAidKit",
 			"ItemGPS",
 			"Medikit",
-			"muzzle_snds_acp",                  // .45 ACP
-			"muzzle_snds_B",                    // 7.62mm
-			"muzzle_snds_H",                    // 6.5mm
-			"muzzle_snds_H_MG",                 // 6.5mm LMG
-			"muzzle_snds_L",                    // 9mm
-			"muzzle_snds_M",                    // 5.56mm
 			"NVGoggles",
 			//"NVGoggles_INDEP",
 			//"NVGoggles_OPFOR",
-			"optic_Aco",
-			"optic_ACO_grn",
-			"optic_aco_smg",
-			"optic_Arco",
-			"optic_Hamr",
-			"optic_Holosight",
-			"optic_Holosight_smg",
-			"optic_SOS",
 			"ToolKit",
 			"H_HelmetB",
 			"H_HelmetIA",
@@ -271,14 +170,7 @@ lootItem_list =
 			"FirstAidKit",
 			"FirstAidKit",
 			"ItemGPS",
-			"Medikit",
-			"NVGoggles",
-			//"NVGoggles_INDEP",
-			//"NVGoggles_OPFOR",
-			"optic_Nightstalker",
-			"optic_NVS",
-			"optic_SOS",
-			"V_RebreatherB"
+			"Medikit"
 		]
 	]
 ];

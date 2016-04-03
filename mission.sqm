@@ -73,7 +73,8 @@ class Mission
 		"a3_characters_f",
 		"A3_Structures_F_EPC_Civ_Accessories",
 		"A3_Modules_F",
-		"aia_chernarus_config"
+		"aia_chernarus_config",
+		"cup_chernarus_config"
 	};
 	addOnsAuto[]=
 	{
@@ -84,13 +85,13 @@ class Mission
 		"A3_Characters_F_Civil",
 		"A3_Modules_F",
 		"A3_Structures_F_EPC_Civ_Accessories",
-		"aia_chernarus_config"
+		"cup_chernarus_config"
 	};
 	randomSeed=14957468;
 	class Intel
 	{
-		briefingName="AC4OM A3Wasteland Chernarus v1.2";
-		overviewText="Wasteland survival sandbox by Team Wasteland - visit A3Wasteland.com for more details";
+		briefingName="Twilight Wasteland Chernarus";
+		overviewText="Wasteland survival sandbox by Team Wasteland - extended by dealyllama";
 		resistanceWest=0;
 		timeOfChanges=3e+038;
 		startWeather=0;
@@ -3094,11 +3095,12 @@ class Intro
 {
 	addOns[]=
 	{
-		"aia_chernarus_config"
+		"aia_chernarus_config",
+		"cup_chernarus_config"
 	};
 	addOnsAuto[]=
 	{
-		"aia_chernarus_config"
+		"cup_chernarus_config"
 	};
 	randomSeed=11737026;
 	class Intel
@@ -3121,11 +3123,12 @@ class OutroWin
 {
 	addOns[]=
 	{
-		"aia_chernarus_config"
+		"aia_chernarus_config",
+		"cup_chernarus_config"
 	};
 	addOnsAuto[]=
 	{
-		"aia_chernarus_config"
+		"cup_chernarus_config"
 	};
 	randomSeed=16432731;
 	class Intel
@@ -3148,11 +3151,12 @@ class OutroLoose
 {
 	addOns[]=
 	{
-		"aia_chernarus_config"
+		"aia_chernarus_config",
+		"cup_chernarus_config"
 	};
 	addOnsAuto[]=
 	{
-		"aia_chernarus_config"
+		"cup_chernarus_config"
 	};
 	randomSeed=2588275;
 	class Intel

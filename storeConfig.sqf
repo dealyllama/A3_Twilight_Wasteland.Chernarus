@@ -18,11 +18,11 @@ currentOwnerName = "";
 pistolArray = compileFinal str
 [
 	// Handguns
-	["P07 Pistol", "hgun_P07_F", 50],
-	["Rook-40 Pistol", "hgun_Rook40_F", 50],
-	["ACP-C2 Pistol", "hgun_ACPC2_F", 75],
-	["Zubr Revolver", "hgun_Pistol_heavy_02_F", 75],
-	["4-Five Pistol", "hgun_Pistol_heavy_01_F", 100]
+	["CZ Duty Pistol", "CUP_hgun_Duty", 50],
+	["Glock 17", "CUP_hgun_Glock17", 50],
+	["Colt 1911", "CUP_hgun_Colt1911", 75],
+	["M9", "CUP_hgun_M9", 75],
+	["Taurus Tracker", "CUP_hgun_TaurusTracker455", 100]
 ];
 
 smgArray = compileFinal str
@@ -34,61 +34,19 @@ smgArray = compileFinal str
 
 rifleArray = compileFinal str
 [
-	// Underwater Gun
-	["SDAR Underwater Rifle", "arifle_SDAR_F", 100],
 
 	// Assault Rifles
-	["Mk20 Carbine", "arifle_Mk20C_plain_F", 150],
-	["Mk20 Carbine (Camo)", "arifle_Mk20C_F", 150],
-	["Mk20 Rifle", "arifle_Mk20_plain_F", 200],
-	["Mk20 Rifle (Camo)", "arifle_Mk20_F", 200],
-	["Mk20 EGLM Rifle", "arifle_Mk20_GL_plain_F", 250],
-	["Mk20 EGLM Rifle (Camo)", "arifle_Mk20_GL_F", 250],
-
-	["TRG-20 Carbine", "arifle_TRG20_F", 150],
-	["TRG-21 Rifle ", "arifle_TRG21_F", 200],
-	["TRG-21 EGLM Rifle", "arifle_TRG21_GL_F", 250],
-
-	["Katiba Carbine", "arifle_Katiba_C_F", 150],
-	["Katiba Rifle", "arifle_Katiba_F", 200],
-	["Katiba GL Rifle", "arifle_Katiba_GL_F", 250],
-
-	["MX Carbine", "arifle_MXC_F", 150],
-	["MX Carbine (Black)", "arifle_MXC_Black_F", 175],
-	["MX Rifle", "arifle_MX_F", 200],
-	["MX Rifle (Black)", "arifle_MX_Black_F", 225],
-	["MX 3GL Rifle", "arifle_MX_GL_F", 250],
-	["MX 3GL Rifle (Black)", "arifle_MX_GL_Black_F", 275],
+	["M16A2", "CUP_arifle_M16A2", 150],
+	["M4A1", "CUP_arifle_M4A1", 150],
+	["AK47", "CUP_arifle_AK47", 150],
+	["AK74", "CUP_arifle_AK74", 150],
+	["FN FAL", "CUP_arifle_FNFAL", 150],
 
 	// Markman Rifles
 	["MXM Rifle", "arifle_MXM_F", 300],
-	["MXM Rifle (Black)", "arifle_MXM_Black_F", 325],
-	["DMR Rifle", "srifle_DMR_01_F", 375],
-	["Mk18 ABR Rifle", "srifle_EBR_F", 450],
-
-	// DLC
-	["Mk14 Rifle (Camo) [DLC]", "srifle_DMR_06_camo_F", 450],
-	["Mk14 Rifle (Olive) [DLC]", "srifle_DMR_06_olive_F", 450],
-	["Mk-I EMR Rifle [DLC]", "srifle_DMR_03_F", 500],
-	["Mk-I EMR Rifle (Camo) [DLC]", "srifle_DMR_03_multicam_F", 550],
-	["Mk-I EMR Rifle (Khaki) [DLC]", "srifle_DMR_03_khaki_F", 550],
-	["Mk-I EMR Rifle (Sand) [DLC]", "srifle_DMR_03_tan_F", 550],
-	["Mk-I EMR Rifle (Woodland) [DLC]", "srifle_DMR_03_woodland_F", 550],
-	["MAR-10 Rifle [DLC]", "srifle_DMR_02_F", 750],
-	["MAR-10 Rifle (Camo) [DLC]", "srifle_DMR_02_camo_F", 800],
-	["MAR-10 Rifle (Sand) [DLC]", "srifle_DMR_02_sniper_F", 800],
-	["Cyrus Rifle [DLC]", "srifle_DMR_05_blk_F", 750],
-	["Cyrus Rifle (Hex) [DLC]", "srifle_DMR_05_hex_F", 800],
-	["Cyrus Rifle (Tan) [DLC]", "srifle_DMR_05_tan_f", 800],
 
 	// Sniper Rifles
-	["M320 LRR Sniper", "srifle_LRR_LRPS_F", 1000],
-	["M320 LRR Sniper (Camo)", "srifle_LRR_camo_LRPS_F", 1200],
-	["GM6 Lynx Sniper", "srifle_GM6_LRPS_F", 1250],
-	["GM6 Lynx Sniper (Camo)", "srifle_GM6_camo_LRPS_F", 1500],
-
-	["ASP-1 Kir Rifle [DLC]", "srifle_DMR_04_F", 2000],
-	["ASP-1 Kir Rifle (Tan) [DLC]", "srifle_DMR_04_tan_F", 2250]
+	["M320 LRR Sniper", "srifle_LRR_LRPS_F", 1000]
 ];
 
 lmgArray = compileFinal str
@@ -176,72 +134,15 @@ throwputArray = compileFinal str
 ammoArray = compileFinal str
 [
 	["9mm 16Rnd Mag", "16Rnd_9x21_Mag", 10],
-	["9mm 30Rnd Mag", "30Rnd_9x21_Mag", 15],
-	[".45 ACP 6Rnd Cylinder", "6Rnd_45ACP_Cylinder", 5],
-	[".45 ACP 9Rnd Mag", "9Rnd_45ACP_Mag", 10],
-	[".45 ACP 11Rnd Mag", "11Rnd_45ACP_Mag", 15],
-	[".45 ACP 30Rnd Vermin Mag", "30Rnd_45ACP_MAG_SMG_01", 20],
-	[".45 ACP 30Rnd Tracer (Green) Mag", "30Rnd_45ACP_Mag_SMG_01_tracer_green", 15],
-	["5.56mm 20Rnd Underwater Mag", "20Rnd_556x45_UW_mag", 10],
-	["5.56mm 30Rnd STANAG Mag", "30Rnd_556x45_Stanag", 20],
-	["5.56mm 30Rnd Tracer (Green) Mag", "30Rnd_556x45_Stanag_Tracer_Green", 15],
-	["5.56mm 30Rnd Tracer (Yellow) Mag", "30Rnd_556x45_Stanag_Tracer_Yellow", 15],
-	["5.56mm 30Rnd Tracer (Red) Mag", "30Rnd_556x45_Stanag_Tracer_Red", 15],
-	["6.5mm 30Rnd STANAG Mag", "30Rnd_65x39_caseless_mag", 20],
-	["6.5mm 30Rnd Tracer (Red) Mag", "30Rnd_65x39_caseless_mag_Tracer", 15],
-	["6.5mm 30Rnd Caseless Mag", "30Rnd_65x39_caseless_green", 20],
-	["6.5mm 30Rnd Tracer (Green) Mag", "30Rnd_65x39_caseless_green_mag_Tracer", 15],
-	["6.5mm 100Rnd Belt Case", "100Rnd_65x39_caseless_mag", 75],
-	["6.5mm 100Rnd Tracer (Red) Belt Case", "100Rnd_65x39_caseless_mag_Tracer", 50],
-	["6.5mm 200Rnd Belt Case", "200Rnd_65x39_cased_Box", 150],
-	["6.5mm 200Rnd Tracer (Yellow) Belt Case", "200Rnd_65x39_cased_Box_Tracer", 125],
-	//["7.62mm 10Rnd Mag", "10Rnd_762x51_Mag", 15],
-	["7.62mm 10Rnd Mag", "10Rnd_762x54_Mag", 15],
-	["7.62mm 20Rnd Mag", "20Rnd_762x51_Mag", 25],
-	//["7.62mm 150Rnd Box", "150Rnd_762x51_Box", 150],
-	//["7.62mm 150Rnd Tracer (Green) Box", "150Rnd_762x51_Box_Tracer", 125],
-	["7.62mm 150Rnd Box", "150Rnd_762x54_Box", 150],
-	["7.62mm 150Rnd Tracer (Green) Box", "150Rnd_762x54_Box_Tracer", 125],
-	[".338 LM 10Rnd Mag", "10Rnd_338_Mag", 50],
-	[".338 NM 130Rnd Belt", "130Rnd_338_Mag", 150],
-	["9.3mm 10Rnd Mag", "10Rnd_93x64_DMR_05_Mag", 50],
-	["9.3mm 150Rnd Belt", "150Rnd_93x64_Mag", 150],
-	[".408 7Rnd Cheetah Mag", "7Rnd_408_Mag", 50],
-	["12.7mm 5Rnd Mag", "5Rnd_127x108_Mag", 50],
-	["12.7mm 5Rnd Armor-Piercing Mag", "5Rnd_127x108_APDS_Mag", 60],
-	["12.7mm 10Rnd Subsonic Mag", "10Rnd_127x54_Mag", 75],
-	["RPG-42 Anti-Tank Rocket", "RPG32_F", 250],              // Direct damage: high      | Splash damage: low    | Guidance: none
-	["RPG-42 High-Explosive Rocket", "RPG32_HE_F", 250],      // Direct damage: medium    | Splash damage: medium | Guidance: none
-	["PCML Anti-Tank Missile", "NLAW_F", 400],                // Direct damage: very high | Splash damage: low    | Guidance: laser, ground vehicles
-	["Titan Anti-Tank Missile", "Titan_AT", 350],             // Direct damage: high      | Splash damage: low    | Guidance: mouse, laser, ground vehicles
-	["Titan Anti-Personnel Missile", "Titan_AP", 350],        // Direct damage: low       | Splash damage: high   | Guidance: mouse, laser
-	["Titan Anti-Air Missile", "Titan_AA", 350],              // Direct damage: low       | Splash damage: medium | Guidance: aircraft
-	["40mm HE Grenade Round", "1Rnd_HE_Grenade_shell", 125],
-	["40mm 3Rnd HE Grenades", "3Rnd_HE_Grenade_shell", 250],
-	["40mm Smoke Round (White)", "1Rnd_Smoke_Grenade_shell", 50],
-	["40mm Smoke Round (Purple)", "1Rnd_SmokePurple_Grenade_shell", 50],
-	["40mm Smoke Round (Blue)", "1Rnd_SmokeBlue_Grenade_shell", 50],
-	["40mm Smoke Round (Green)", "1Rnd_SmokeGreen_Grenade_shell", 50],
-	["40mm Smoke Round (Yellow)", "1Rnd_SmokeYellow_Grenade_shell", 50],
-	["40mm Smoke Round (Orange)", "1Rnd_SmokeOrange_Grenade_shell", 50],
-	["40mm Smoke Round (Red)", "1Rnd_SmokeRed_Grenade_shell", 50],
-	["40mm 3Rnd Smokes (White)", "3Rnd_Smoke_Grenade_shell", 100],
-	["40mm 3Rnd Smokes (Purple)", "3Rnd_SmokePurple_Grenade_shell", 100],
-	["40mm 3Rnd Smokes (Blue)", "3Rnd_SmokeBlue_Grenade_shell", 100],
-	["40mm 3Rnd Smokes (Green)", "3Rnd_SmokeGreen_Grenade_shell", 100],
-	["40mm 3Rnd Smokes (Yellow)", "3Rnd_SmokeYellow_Grenade_shell", 100],
-	["40mm 3Rnd Smokes (Orange)", "3Rnd_SmokeOrange_Grenade_shell", 100],
-	["40mm 3Rnd Smokes (Red)", "3Rnd_SmokeRed_Grenade_shell", 100],
-	["40mm Flare Round (White)", "UGL_FlareWhite_F", 25],
-	["40mm Flare Round (Green)", "UGL_FlareGreen_F", 25],
-	["40mm Flare Round (Yellow)", "UGL_FlareYellow_F", 25],
-	["40mm Flare Round (Red)", "UGL_FlareRed_F", 25],
-	["40mm Flare Round (IR)", "UGL_FlareCIR_F", 25],
-	["40mm 3Rnd Flares (White)", "3Rnd_UGL_FlareWhite_F", 50],
-	["40mm 3Rnd Flares (Green)", "3Rnd_UGL_FlareGreen_F", 50],
-	["40mm 3Rnd Flares (Yellow)", "3Rnd_UGL_FlareYellow_F", 50],
-	["40mm 3Rnd Flares (Red)", "3Rnd_UGL_FlareRed_F", 50],
-	["40mm 3Rnd Flares (IR)", "3Rnd_UGL_FlareCIR_F", 50]
+	["Glock 17 Mag", "CUP_17Rnd_9x19_glock17", 10],
+	["M1911 Mag", "CUP_7Rnd_45ACP_1911", 10],
+	["M9 Mag", "CUP_15Rnd_9x19_M9", 10],
+	["Taurus Tracker Speedloader", "CUP_6Rnd_45ACP_M", 10],
+	["AK47 Mag", "CUP_30Rnd_762x39_AK47_M", 10],
+	["AK74 Mag", "CUP_30Rnd_545x39_AK_M", 10],
+	["30Rnd STANAG", "CUP_30Rnd_556x45_Stanag", 10],
+	["20Rnd STANAG", "CUP_20Rnd_556x45_Stanag", 10],
+	["FN FAL Mag", "CUP_20Rnd_762x51_FNFAL_M", 10]
 ];
 
 //Gun Store item List

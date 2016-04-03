@@ -8,22 +8,22 @@
 // This file is overriden by the external file "A3Wasteland_settings\main_config.sqf" if present
 
 // General settings
-A3W_teamPlayersMap = 1;            // Show all friendly players on the map at all times, regardless of difficulty level (0 = no, 1 = yes)
+A3W_teamPlayersMap = 0;            // Show all friendly players on the map at all times, regardless of difficulty level (0 = no, 1 = yes)
 A3W_disableGlobalVoice = 1;        // Auto-switch channel to Direct communication whenever broadcasting voice on global, unless being admin (0 = no, 1 = yes)
 A3W_uavControl = "group";          // Restrict connection to UAVs based on ownership ("owner", "group", "side")
 
 // Time settings
 A3W_startHour = 15;                // In-game hour at mission start (0 to 23) - time is saved and restored between server restarts if A3W_timeSaving = 1
 A3W_timeMultiplierDay = 1.0;       // Sets the speed of time between 5 AM and 8 PM (for example, 6.0 means 6 hours in-game will pass in 1 real hour)
-A3W_timeMultiplierNight = 4.0;     // Sets the speed of time between 8 PM and 5 AM
+A3W_timeMultiplierNight = 8.0;     // Sets the speed of time between 8 PM and 5 AM
 A3W_moonLight = 1;                 // Moon light during night (0 = no, 1 = yes)
 
 // Player settings
 A3W_startingMoney = 100;           // Amount of money that players start with
 A3W_survivalSystem = 1;            // Food and water are required to stay alive (0 = no, 1 = yes) - 0 removes food and water items from the mission
-A3W_unlimitedStamina = 1;          // Allow unlimited sprinting, jumping, etc. (0 = no, 1 = yes) - this also removes energy drinks from the mission
+A3W_unlimitedStamina = 0;          // Allow unlimited sprinting, jumping, etc. (0 = no, 1 = yes) - this also removes energy drinks from the mission
 A3W_bleedingTime = 60;             // Time in seconds for which to allow revive after a critical injury (minimum 10 seconds)
-A3W_headshotNoRevive = 0;          // Instant death on fatal headshot by enemy player with non-explosive ammo (0 = no, 1 = yes)
+A3W_headshotNoRevive = 1;          // Instant death on fatal headshot by enemy player with non-explosive ammo (0 = no, 1 = yes)
 
 // Spawn settings
 A3W_townSpawnCooldown = 5*60;      // Number of seconds to wait between each spawn on a specific town (0 = disabled)
@@ -35,8 +35,8 @@ A3W_antiHackUnitCheck = 1;         // Detect players who spawn unauthorized AI u
 A3W_antiHackMinRecoil = 1.0;       // Mininum recoil coefficient enforced by the antihack (recommended values: default = 1.0, TMR Mod = 0.5, VTS Weapon Resting = 0.25) (minimum: 0.02)
 
 // Store settings
-A3W_showGunStoreStatus = 1;        // Show enemy and friendly presence at gunstores on map (0 = no, 1 = yes)
-A3W_gunStoreIntruderWarning = 1;   // Warn players in gunstore areas of enemy intruders (0 = no, 1 = yes)
+A3W_showGunStoreStatus = 0;        // Show enemy and friendly presence at gunstores on map (0 = no, 1 = yes)
+A3W_gunStoreIntruderWarning = 0;   // Warn players in gunstore areas of enemy intruders (0 = no, 1 = yes)
 A3W_remoteBombStoreRadius = 75;    // Prevent players from placing remote explosives within this distance from any store (0 = disabled)
 A3W_poiObjLockDistance = 100;      // Prevent players from locking objects within this distance from points of interest (stores & mission spawns)
 A3W_vehiclePurchaseCooldown = 60;  // Number of seconds to wait before allowing someone to purchase another vehicle, don't bother setting it too high because it can be bypassed by rejoining
@@ -115,10 +115,10 @@ A3W_baseBuilding = 1;              // If serverSpawning = 1, spawn base parts in
 A3W_essentialsSpawning = 1;        // If serverSpawning = 1, spawn essential items (food sacks, water barrels, minor supply crates) in towns (0 = no, 1 = yes)
 
 // Loot settings
-A3W_buildingLootWeapons = 0;       // Spawn weapon loot in all buildings (0 = no, 1 = yes)
+A3W_buildingLootWeapons = 1;       // Spawn weapon loot in all buildings (0 = no, 1 = yes)
 A3W_buildingLootSupplies = 1;      // Spawn supply loot (backpacks & player items) in all buildings (0 = no, 1 = yes)
-A3W_buildingLootChances = 25;      // Chance percentage that loot will spawn at each spot in a building (0 to 100)
-A3W_vehicleLoot = 2;               // Level of loot added to vehicles (0 = none, 1 = weapon OR items, 2 = weapon AND items, 3 = two weapons AND items) - 2 or 3 recommended if buildingLoot = 0
+A3W_buildingLootChances = 10;      // Chance percentage that loot will spawn at each spot in a building (0 to 100)
+A3W_vehicleLoot = 1;               // Level of loot added to vehicles (0 = none, 1 = weapon OR items, 2 = weapon AND items, 3 = two weapons AND items) - 2 or 3 recommended if buildingLoot = 0
 
 // Territory settings
 A3W_territoryCaptureTime = 3*60;   // Time in seconds needed to capture a territory
@@ -128,11 +128,11 @@ A3W_payrollAmount = 100;           // Amount of money rewarded per territory on 
 
 // Mission settings
 A3W_serverMissions = 1;            // Enable server missions (0 = no, 1 = yes)
-A3W_missionsDifficulty = 0;        // Missions difficulty (0 = normal, 1 = hard)
+A3W_missionsDifficulty = 1;        // Missions difficulty (0 = normal, 1 = hard)
 A3W_missionFarAiDrawLines = 1;     // Draw small red lines on the map from mission markers to individual units & vehicles which are further away than 75m from the objective (0 = no, 1 = yes)
 A3W_missionsQuantity = 6;          // Number of missions running at the same time (0 to 6)
 A3W_heliPatrolMissions = 1;        // Enable missions involving flying helicopters piloted by AI (0 = no, 1 = yes)
-A3W_underWaterMissions = 1;        // Enable underwater missions which require diving gear (0 = no, 1 = yes)
+A3W_underWaterMissions = 0;        // Enable underwater missions which require diving gear (0 = no, 1 = yes)
 A3W_mainMissionDelay = 10*60;      // Time in seconds between Main Missions
 A3W_mainMissionTimeout = 60*60;    // Time in seconds that a Main Mission will run for, unless completed
 A3W_sideMissionDelay = 5*60;       // Time in seconds between Side Missions
