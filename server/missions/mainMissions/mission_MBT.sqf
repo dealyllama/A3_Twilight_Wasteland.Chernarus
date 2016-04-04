@@ -16,7 +16,7 @@ _setupVars =
 	_vehicleClass =
 	[
 		"CUP_O_T72_SLA",
-		"CUP_B_M1A2_TUSK_MG_US_Army"
+		"CUP_B_M1A2_TUSK_MG_US_Army",
 		"CUP_B_M6LineBacker_USA_W",
 		"rhs_t80"
 	] call BIS_fnc_selectRandom;
