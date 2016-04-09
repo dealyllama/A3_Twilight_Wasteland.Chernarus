@@ -427,10 +427,8 @@
 "CUP_O_BRDM2_CHDKZ"
 "CUP_I_BRDM2_UN"
 "CUP_O_BRDM2_ATGM_SLA"
-"rhs_btr70_chdkz"
 "CUP_B_LAV25M240_USMC"
 "CUP_B_LAV25_HQ_USMC"
-"rhs_bmd1k"
 "CUP_I_BMP1_TK_GUE"
 "CUP_B_M113_USA"
 "CUP_B_M2Bradley_USA_W"
@@ -450,16 +448,13 @@
 "CUP_I_UAZ_SPG9_UN"
 
 //MBT
-		"CUP_O_T72_SLA",
-		"CUP_B_M1A2_TUSK_MG_US_Army"
-		"CUP_B_M6LineBacker_USA_W",
-		"rhs_t80"
+"CUP_O_T72_SLA",
+"CUP_B_M1A2_TUSK_MG_US_Army"
+"CUP_B_M6LineBacker_USA_W",
 
 
 //Air Vehicles
 //Helicopters
-"RHS_AH1Z_GS"
-"RHS_AH1Z_wd"
 "CUP_B_AH64D_USA"
 "CUP_B_Merlin_HC3_GB"
 "CUP_B_CH47F_USA"
@@ -472,6 +467,11 @@
 "CUP_B_UH60M_FFV_US"
 "CUP_B_UH60M_Unarmed_US"
 
+
+
+
+//Soldiers
+//German
 
 
 

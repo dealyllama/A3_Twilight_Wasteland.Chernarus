@@ -18,10 +18,8 @@ _setupVars =
 		"CUP_O_BRDM2_CHDKZ",
 		"CUP_I_BRDM2_UN",
 		"CUP_O_BRDM2_ATGM_SLA",
-		"rhs_btr70_chdkz",
 		"CUP_B_LAV25M240_USMC",
 		"CUP_B_LAV25_HQ_USMC",
-		"rhs_bmd1k",
 		"CUP_I_BMP1_TK_GUE",
 		"CUP_B_M113_USA",
 		"CUP_B_M2Bradley_USA_W"

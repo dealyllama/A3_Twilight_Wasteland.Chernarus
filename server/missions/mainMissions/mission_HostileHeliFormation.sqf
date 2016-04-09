@@ -21,7 +21,7 @@ _setupObjects =
 
 	_heliChoices =
 	[
-		["CUP_B_CH53E_USMC", "RHS_AH1Z_GS"],
+		["CUP_B_CH53E_USMC", "CUP_B_Mi35_CZ"],
 		["CUP_B_Mi171Sh_ACR", "CUP_B_UH1Y_GUNSHIP_USMC"],
 		["CUP_B_UH1D_GER_KSK", "CUP_B_UH60M_Unarmed_US"]
 	];
