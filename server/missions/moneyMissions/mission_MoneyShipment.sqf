@@ -75,7 +75,7 @@ _setupVars =
 				],
 				[ // Warsaw convoy
 					["O_APC_Wheeled_02_rcws_F", "O_APC_Tracked_02_cannon_F", "O_APC_Tracked_02_AA_F"], // Veh 1
-					["CUP_O_T72_SLA", "rhs_t80"], // Veh 2
+					["CUP_O_T72_SLA"], // Veh 2
 					["O_APC_Wheeled_02_rcws_F", "O_APC_Tracked_02_cannon_F", "O_APC_Tracked_02_AA_F"] // Veh 3
 				],
 				[ // Indie convoy
@@ -91,22 +91,22 @@ _setupVars =
 			100000, // Money
 			[
 				[ // NATO convoy
-					["CUP_B_LAV25M240_USMC", "CUP_I_BRDM2_UN", "CUP_B_M113_USA", "CUP_B_M1A2_TUSK_MG_US_Army", "CUP_B_M6LineBacker_USA_W"], // Veh 1
-					["CUP_B_HMMWV_Avenger_USA", "CUP_I_BRDM2_UN", "CUP_B_M113_USA"], // Veh 2
-					["CUP_B_LAV25M240_USMC", "CUP_I_BRDM2_UN", "CUP_B_M113_USA", "CUP_B_M1A2_TUSK_MG_US_Army", "CUP_B_M6LineBacker_USA_W"], // Veh 3
-					["CUP_B_LAV25M240_USMC", "CUP_I_BRDM2_UN", "CUP_B_M113_USA", "CUP_B_M1A2_TUSK_MG_US_Army", "CUP_B_M6LineBacker_USA_W"] // Veh 4
+					["CUP_B_LAV25M240_USMC", "CUP_I_BRDM2_UN", "CUP_B_M113_USA", "CUP_B_M1A2_TUSK_MG_US_Army", "CUP_B_M6LineBacker_USA_W", "CUP_B_M163_USA"], // Veh 1
+					["CUP_B_HMMWV_Avenger_USA", "CUP_I_BRDM2_UN", "CUP_B_M113_USA", "CUP_B_M163_USA"], // Veh 2
+					["CUP_B_LAV25M240_USMC", "CUP_I_BRDM2_UN", "CUP_B_M113_USA", "CUP_B_M1A2_TUSK_MG_US_Army", "CUP_B_M6LineBacker_USA_W", "CUP_B_M163_USA"], // Veh 3
+					["CUP_B_LAV25M240_USMC", "CUP_I_BRDM2_UN", "CUP_B_M113_USA", "CUP_B_M1A2_TUSK_MG_US_Army", "CUP_B_M6LineBacker_USA_W", "CUP_B_M163_USA"] // Veh 4
 				],
 				[ // Warsaw convoy
-					["O_APC_Wheeled_02_rcws_F", "O_APC_Tracked_02_cannon_F", "O_APC_Tracked_02_AA_F", "CUP_O_T72_SLA"], // Veh 1
-					["O_APC_Wheeled_02_rcws_F", "O_APC_Tracked_02_cannon_F", "O_APC_Tracked_02_AA_F", "CUP_O_T72_SLA"], // Veh 2
-					["O_APC_Wheeled_02_rcws_F", "O_APC_Tracked_02_cannon_F", "O_APC_Tracked_02_AA_F", "CUP_O_T72_SLA"], // Veh 3
-					["O_APC_Wheeled_02_rcws_F", "O_APC_Tracked_02_cannon_F", "O_APC_Tracked_02_AA_F", "CUP_O_T72_SLA"] // Veh 4
+					["CUP_I_BMP1_TK_GUE", "CUP_O_BRDM2_CHDKZ", "CUP_O_ZSU23_ChDKZ", "CUP_O_T72_SLA"], // Veh 1
+					["CUP_I_BMP1_TK_GUE", "CUP_O_BRDM2_CHDKZ", "CUP_O_ZSU23_ChDKZ", "CUP_O_T72_SLA"], // Veh 2
+					["CUP_I_BMP1_TK_GUE", "CUP_O_BRDM2_CHDKZ", "CUP_O_ZSU23_ChDKZ", "CUP_O_T72_SLA"], // Veh 3
+					["CUP_I_BMP1_TK_GUE", "CUP_O_BRDM2_CHDKZ", "CUP_O_ZSU23_ChDKZ", "CUP_O_T72_SLA"] // Veh 4
 				],
 				[ // Indie convoy
-					["CUP_I_SUV_Armored_ION", "I_MRAP_03_gmg_F", "CUP_O_T72_SLA", "CUP_B_M1A2_TUSK_MG_US_Army","CUP_O_UAZ_SPG9_TKA", "CUP_B_Dingo_CZ_Wdl"], // Veh 1
-					["CUP_I_SUV_Armored_ION", "I_MRAP_03_gmg_F", "CUP_O_T72_SLA", "CUP_B_M1A2_TUSK_MG_US_Army","CUP_O_UAZ_SPG9_TKA", "CUP_B_Dingo_CZ_Wdl"], // Veh 2
-					["CUP_I_SUV_Armored_ION", "I_MRAP_03_gmg_F", "CUP_O_T72_SLA", "CUP_B_M1A2_TUSK_MG_US_Army","CUP_O_UAZ_SPG9_TKA", "CUP_B_Dingo_CZ_Wdl"], // Veh 3
-					["CUP_I_SUV_Armored_ION", "I_MRAP_03_gmg_F", "CUP_O_T72_SLA", "CUP_B_M1A2_TUSK_MG_US_Army","CUP_O_UAZ_SPG9_TKA", "CUP_B_Dingo_CZ_Wdl"] // Veh 4
+					["CUP_I_SUV_Armored_ION", "CUP_B_HMMWV_Crows_MK19_USA", "CUP_O_T72_SLA", "CUP_B_M1A2_TUSK_MG_US_Army","CUP_O_ZSU23_ChDKZ", "CUP_B_Dingo_CZ_Wdl"], // Veh 1
+					["CUP_I_SUV_Armored_ION", "CUP_B_HMMWV_Crows_MK19_USA", "CUP_O_T72_SLA", "CUP_B_M1A2_TUSK_MG_US_Army","CUP_O_ZSU23_ChDKZ", "CUP_B_Dingo_CZ_Wdl"], // Veh 2
+					["CUP_I_SUV_Armored_ION", "CUP_B_HMMWV_Crows_MK19_USA", "CUP_O_T72_SLA", "CUP_B_M1A2_TUSK_MG_US_Army","CUP_O_ZSU23_ChDKZ", "CUP_B_Dingo_CZ_Wdl"], // Veh 3
+					["CUP_I_SUV_Armored_ION", "CUP_B_HMMWV_Crows_MK19_USA", "CUP_O_T72_SLA", "CUP_B_M1A2_TUSK_MG_US_Army","CUP_O_ZSU23_ChDKZ", "CUP_B_Dingo_CZ_Wdl"] // Veh 4
 				]
 			]
 		]

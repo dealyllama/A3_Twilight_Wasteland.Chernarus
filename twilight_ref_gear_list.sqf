@@ -432,6 +432,9 @@
 "CUP_I_BMP1_TK_GUE"
 "CUP_B_M113_USA"
 "CUP_B_M2Bradley_USA_W"
+"CUP_O_ZSU23_ChDKZ"
+"CUP_B_M163_USA"
+"CUP_B_M1135_ATGMV_Woodland_Slat"
 
 
 //Cars / Trucks
@@ -446,6 +449,7 @@
 "CUP_O_LR_MG_TKM"
 "CUP_O_UAZ_SPG9_TKA"
 "CUP_I_UAZ_SPG9_UN"
+
 
 //MBT
 "CUP_O_T72_SLA",
