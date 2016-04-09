@@ -1,0 +1,13 @@
+DONE: import Chernarus+ map and see if I can get the basics running
+--Turns out this isn't easy to do.  Grabbed a building replacer script instead that adds Altis structures... Not sure if I like it yet, will have to see.
+May want to get X-Cam up and running instead as well, see if I like that.  Not sure if there are enterable assets I can replace with.--
+
+TODO: cut spawn item lists way down to get a simple feeling
+TODO: Need to create a tiered spawning system (e.g. civilian_pistol, military_pistol, civilian_rifle, military_rifle) - and maybe even tier it further so that some of the best weapons and variants are only available on the AI targets or similar
+TODO: Configure Blufor, Opfor, and Indie
+TODO: Build out Blufor zone of control
+TODO: Build out Opfor zone of control
+TODO: Build out indie zone of control
+TODO: Add Blufor AI to zone of control
+TODO: Add Opfor AI to zone of control
+TODO: Add Indie AI to zone of control

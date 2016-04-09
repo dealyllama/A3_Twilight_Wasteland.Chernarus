@@ -79,6 +79,7 @@ if (!isDedicated) then
 if (isServer) then
 {
 	diag_log format ["############################# %1 #############################", missionName];
+	diag_log format ["############################# %1 #############################", worldName];
 	diag_log "WASTELAND SERVER - Initializing Server";
 	[] execVM "server\init.sqf";
 };
@@ -91,5 +92,6 @@ if (hasInterface || isServer) then
 	[] execVM "addons\JumpMF\init.sqf";
 	[] execVM "addons\outlw_magRepack\MagRepack_init.sqf";
 	[] execVM "addons\lsd_nvg\init.sqf";
+	[] execVM "addons\buildingReplacer\buildingReplacer.sqf"; 
 	if (isNil "drn_DynamicWeather_MainThread") then { drn_DynamicWeather_MainThread = [] execVM "addons\scripts\DynamicWeatherEffects.sqf" };
 };
