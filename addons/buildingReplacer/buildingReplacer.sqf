@@ -86,7 +86,7 @@ if (isServer) then
 				if ((typeof _nBuilding) in (_dmdRep0001 select 0)) exitwith {_type=(_dmdRep0001 select 1) select 0;};
 				if ((typeof _nBuilding) in (_dmdRep0002 select 0)) exitwith {_type=(_dmdRep0002 select 1) select 0;};
 				if ((typeof _nBuilding) in (_dmdRep0003 select 0)) exitwith {_type=(_dmdRep0003 select 1) select 0;};
-				if ((typeof _nBuilding) in (_dmdRep0005 select 0)) exitwith {_type=(_dmdRep0005 select 1) select 0;};
+//				if ((typeof _nBuilding) in (_dmdRep0005 select 0)) exitwith {_type=(_dmdRep0005 select 1) select 0;};
 //				if ((typeof _nBuilding) in (_dmdRep0006 select 0)) exitwith {_type=(_dmdRep0006 select 1) select 0;};
 				if ((typeof _nBuilding) in (_dmdRep0007 select 0)) exitwith {_type=(_dmdRep0007 select 1) select 0;};
 				if ((typeof _nBuilding) in (_dmdRep0008 select 0)) exitwith {_type=(_dmdRep0008 select 1) select 0;};
@@ -96,8 +96,8 @@ if (isServer) then
 //				if ((typeof _nBuilding) in (_dmdRep0012 select 0)) exitwith {_type=(_dmdRep0012 select 1) select 0;};
 //				if ((typeof _nBuilding) in (_dmdRep0013 select 0)) exitwith {_type=(_dmdRep0013 select 1) select 0;};
 				if ((typeof _nBuilding) in (_dmdRep0014 select 0)) exitwith {_type=(_dmdRep0014 select 1) select 0;};				
-				if ((typeof _nBuilding) in (_dmdRep0016 select 0)) exitwith {_type=(_dmdRep0016 select 1) select 0;};
-				if ((typeof _nBuilding) in (_dmdRep0017 select 0)) exitwith {_type=(_dmdRep0017 select 1) select 0;};
+//				if ((typeof _nBuilding) in (_dmdRep0016 select 0)) exitwith {_type=(_dmdRep0016 select 1) select 0;};
+//				if ((typeof _nBuilding) in (_dmdRep0017 select 0)) exitwith {_type=(_dmdRep0017 select 1) select 0;};
 				if ((typeof _nBuilding) in (_dmdRep0018 select 0)) exitwith {_type=(_dmdRep0018 select 1) select 0;};
 				if ((typeof _nBuilding) in (_dmdRep0019 select 0)) exitwith {_type=(_dmdRep0019 select 1) select 0;};
 				if ((typeof _nBuilding) in (_dmdRep0020 select 0)) exitwith {_type=(_dmdRep0020 select 1) select 0;};

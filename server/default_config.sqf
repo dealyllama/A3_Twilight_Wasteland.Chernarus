@@ -57,7 +57,7 @@ A3W_moneySaving = 1;               // If playerSaving = 1, save player money amo
 A3W_playerStatsGlobal = 0;         // If playerSaving = 1 and savingMethod = "extDB", players' stats on the scoreboard will be their all-time global values from all servers of your database (0 = no, 1 = yes)
 A3W_timeSaving = 1;                // Save and restore in-game clock time between server restarts (0 = no, 1 = yes)
 A3W_weatherSaving = 1;             // Save and restore weather settings between server restarts (0 = no, 1 = yes)
-A3W_combatAbortDelay = 60;         // If playerSaving = 1, delay in seconds for which to disable abort and respawn buttons after firing or being shot (0 = none)
+A3W_combatAbortDelay = 30;         // If playerSaving = 1, delay in seconds for which to disable abort and respawn buttons after firing or being shot (0 = none)
 A3W_purchasedVehicleSaving = 1;    // Save vehicles purchased at vehicle stores between server restarts (0 = no, 1 = yes)
 A3W_missionVehicleSaving = 1;      // Save vehicles captured from missions between server restarts (0 = no, 1 = yes)
 A3W_baseSaving = 1;                // Save locked base parts between server restarts (0 = no, 1 = yes)
@@ -117,7 +117,7 @@ A3W_essentialsSpawning = 1;        // If serverSpawning = 1, spawn essential ite
 // Loot settings
 A3W_buildingLootWeapons = 1;       // Spawn weapon loot in all buildings (0 = no, 1 = yes)
 A3W_buildingLootSupplies = 1;      // Spawn supply loot (backpacks & player items) in all buildings (0 = no, 1 = yes)
-A3W_buildingLootChances = 40;      // Chance percentage that loot will spawn at each spot in a building (0 to 100)
+A3W_buildingLootChances = 30;      // Chance percentage that loot will spawn at each spot in a building (0 to 100)
 A3W_vehicleLoot = 1;               // Level of loot added to vehicles (0 = none, 1 = weapon OR items, 2 = weapon AND items, 3 = two weapons AND items) - 2 or 3 recommended if buildingLoot = 0
 
 // Territory settings

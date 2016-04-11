@@ -1,13 +1,34 @@
 DONE: import Chernarus+ map and see if I can get the basics running
 --Turns out this isn't easy to do.  Grabbed a building replacer script instead that adds Altis structures... Not sure if I like it yet, will have to see.
 May want to get X-Cam up and running instead as well, see if I like that.  Not sure if there are enterable assets I can replace with.--
+DONE: Evaluate other maps as possible better starting points -- nothing is quite right
 
-TODO: cut spawn item lists way down to get a simple feeling
+DONE: Evaluate ACE and Advanced Movement to see how they feel --Keep Movement for now, leave out ACE, not sure what it would add at this point other than more script confusion while I'm building
+
+DONE: Evaluate either X-Cam to update map for enterable building or do selective destruction of non-entrable buildings to create more of an open env  -- XCam might work for me but it'll be a lot of work.  For now the script alternative makes sense, we can roll from there till more is developed
+
+DONE: Evaluate DAC for AI system -- DAC looks pretty interesting.  Not sure how it plays in a server world exactly but could be a quick route to the zones of control for the teams
+
+Done: cut spawn item lists way down to get a simple feeling  -- Initial pass complete
+
+TODO: Get optics spawning properly - AI seems to have lazer vision
+
+TODO: replace default vehicles with CUP era ones
+
+TODO: Replace spawned soldiers with CUP era ones
+
 TODO: Need to create a tiered spawning system (e.g. civilian_pistol, military_pistol, civilian_rifle, military_rifle) - and maybe even tier it further so that some of the best weapons and variants are only available on the AI targets or similar
+
 TODO: Configure Blufor, Opfor, and Indie
+
 TODO: Build out Blufor zone of control
+
 TODO: Build out Opfor zone of control
+
 TODO: Build out indie zone of control
+
 TODO: Add Blufor AI to zone of control
+
 TODO: Add Opfor AI to zone of control
+
 TODO: Add Indie AI to zone of control
