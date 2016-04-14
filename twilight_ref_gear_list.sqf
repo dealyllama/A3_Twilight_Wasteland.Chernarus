@@ -37,7 +37,29 @@
 "CUP_arifle_G36C",
 "CUP_arifle_L85A2",
 "CUP_arifle_M16A2",
-"CUP_arifle_M4A1"  
+"CUP_arifle_M4A1" 
+
+//Assault Rifles with Optics
+"CUP_arifle_AKS74_kobra",
+"CUP_arifle_AKS74_pso",
+"CUP_arifle_FNFAL_ANPVS4",
+"CUP_arifle_L85A2_Holo_laser",
+"CUP_arifle_L85A2_ACOG_Laser",
+"CUP_arifle_M16A4_Aim_Laser",
+"CUP_arifle_M16A4_ACOG_Laser",
+"CUP_arifle_M4A1_Holo_Laser",
+"CUP_arifle_M4A1_LeupoldMk4CQT_Laser",
+
+
+
+ //Assault Rifles with GL
+"CUP_arifle_L85A2_GL"
+"CUP_arifle_AK74_GL",
+"CUP_arifle_M16A4_GL",
+"CUP_arifle_M4A1_BUIS_GL"
+
+
+
 
 //Assault Rifle Mags
 "CUP_30Rnd_762x39_AK47_M",
@@ -67,6 +89,12 @@
 "CUP_lmg_PKM",
 "CUP_arifle_RPK74_45",
 
+//LMG with optics
+"CUP_lmg_M249_ElcanM145_Laser",
+"CUP_lmg_Mk48_wdl_Aim_Laser",
+
+
+
 
 
 //LMG Mags
@@ -92,6 +120,14 @@
 "CUP_srifle_Mk12SPR",
 "CUP_srifle_SVD",
 "CUP_srifle_VSSVintorez",
+
+//DMR, Rifle, and Snipers w/ Scopes and attachments
+"CUP_srifle_M14_DMR_LeupoldMk4_snds",
+"CUP_srifle_M14_DMR_LeupoldMk4",
+"CUP_srifle_M24_wdl_LeupoldMk4LRT",
+"CUP_srifle_Mk12SPR_LeupoldM3LR_bipod",
+"CUP_srifle_SVD_des_ghillie_pso",
+"CUP_srifle_VSSVintorez_pso"
 
 
 

@@ -11,11 +11,14 @@ DONE: Evaluate DAC for AI system -- DAC looks pretty interesting.  Not sure how 
 
 Done: cut spawn item lists way down to get a simple feeling  -- Initial pass complete
 
-TODO: Get optics spawning properly - AI seems to have lazer vision
+DONE: Get optics spawning properly - AI seems to have lazer vision
 
-TODO: replace default vehicles with CUP era ones
+DONE: replace default vehicles with CUP era ones
 
-TODO: Replace spawned soldiers with CUP era ones
+DONE: Replace spawned soldiers with CUP era ones
+
+TODO: Check spawning and balancing, see how things feel vs. AI - overpowered?
+
 
 TODO: Need to create a tiered spawning system (e.g. civilian_pistol, military_pistol, civilian_rifle, military_rifle) - and maybe even tier it further so that some of the best weapons and variants are only available on the AI targets or similar
 

@@ -141,9 +141,7 @@ staticHeliList =
 [
 	"CUP_B_UH60M_Unarmed_US",
 	"CUP_B_UH1Y_UNA_USMC",
-	"CUP_I_SA330_Puma_HC2_RACS",
-	"I_Heli_light_03_unarmed_F",
-	"B_Heli_Light_01_F"
+	"CUP_I_SA330_Puma_HC2_RACS"
 	// don't put cargo helicopters here, it doesn't make sense to find them in towns; they spawn in the CivHeli mission
 ];
 
