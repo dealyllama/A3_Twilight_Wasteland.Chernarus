@@ -17,6 +17,8 @@ DONE: replace default vehicles with CUP era ones
 
 DONE: Replace spawned soldiers with CUP era ones
 
+TODO: Reset player spawn to have basic clothing and a fanny pack or something small...
+
 TODO: Check spawning and balancing, see how things feel vs. AI - overpowered?
 
 

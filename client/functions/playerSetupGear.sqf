@@ -30,18 +30,13 @@ _player unlinkItem "ItemGPS";
 // Remove NVG
 if (hmd _player != "") then { _player unlinkItem hmd _player };
 
-// Add NVG
-_player linkItem "NVGoggles";
-
+//TODO: Are there any CUP packs or does it matter?  why so many vests and I can't find a pack list?
 _player addBackpack "B_AssaultPack_rgr";
 
-_player addMagazine "9Rnd_45ACP_Mag";
-_player addWeapon "hgun_ACPC2_F";
-_player addMagazine "9Rnd_45ACP_Mag";
-_player addMagazine "9Rnd_45ACP_Mag";
-_player addMagazine "9Rnd_45ACP_Mag";
+_player addMagazine "CUP_15Rnd_9x19_M9";
+_player addWeapon "CUP_hgun_M9";
 _player addItem "FirstAidKit";
-_player selectWeapon "hgun_ACPC2_F";
+_player selectWeapon "CUP_hgun_M9";
 
 switch (true) do
 {
