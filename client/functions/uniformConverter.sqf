@@ -18,23 +18,8 @@ if !(_unit isUniformAllowed _uniform) then
 {
 	_uniforms =
 	[
-		["U_B_CombatUniform_mcam", "U_O_CombatUniform_ocamo", "U_I_CombatUniform"],
-		["U_B_GhillieSuit", "U_O_GhillieSuit", "U_I_GhillieSuit"],
-		["U_B_FullGhillie_ard", "U_O_FullGhillie_ard", "U_I_FullGhillie_ard"],
-		["U_B_FullGhillie_lsh", "U_O_FullGhillie_lsh", "U_I_FullGhillie_lsh"],
-		["U_B_FullGhillie_sard", "U_O_FullGhillie_sard", "U_I_FullGhillie_sard"],
-		["U_B_Wetsuit", "U_O_Wetsuit", "U_I_Wetsuit"],
-		["U_B_PilotCoveralls", "U_O_PilotCoveralls", "U_I_PilotCoveralls"],
-		["U_BG_Guerilla1_1", "U_OG_Guerilla1_1", "U_IG_Guerilla1_1"],
-		["U_BG_Guerilla2_1", "U_OG_Guerilla2_1", "U_IG_Guerilla2_1"],
-		["U_BG_Guerilla2_2", "U_OG_Guerilla2_2", "U_IG_Guerilla2_2"],
-		["U_BG_Guerilla2_3", "U_OG_Guerilla2_3", "U_IG_Guerilla2_3"],
-		["U_BG_Guerilla3_1", "U_OG_Guerilla3_1", "U_IG_Guerilla3_1"],
-		["U_BG_Guerilla3_2", "U_OG_Guerilla3_2", "U_IG_Guerilla3_2"],
-		["U_BG_leader", "U_OG_leader", "U_IG_leader"],
-		["U_O_OfficerUniform_ocamo", "U_I_OfficerUniform"],
-		["U_B_HeliPilotCoveralls", "U_I_HeliPilotCoveralls"],
-		["U_B_Protagonist_VR", "U_O_Protagonist_VR", "U_I_Protagonist_VR"]
+		["CUP_U_B_BAF_MTP_S1_RolledUp", "CUP_U_O_Partisan_VSR_Mixed2", "CUP_U_I_GUE_Anorak_02"],
+		["CUP_U_B_BAF_DPM_Ghillie", "CUP_U_O_RUS_Ghillie", "CUP_U_I_Ghillie_Top" ]
 	];
 
 	{

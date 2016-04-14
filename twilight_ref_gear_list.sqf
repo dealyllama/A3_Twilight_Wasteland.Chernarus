@@ -94,9 +94,6 @@
 "CUP_lmg_Mk48_wdl_Aim_Laser",
 
 
-
-
-
 //LMG Mags
 "CUP_200Rnd_TE4_Green_Tracer_556x45_M249",
 "CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M",
@@ -254,79 +251,43 @@
 "V_Press_F",
 
 
-//Uniforms
-"CUP_U_B_CZ_WDL_TShirt",
-"CUP_U_C_Citizen_02",
-"CUP_U_C_Citizen_01",
-"CUP_U_C_Citizen_04",
-"CUP_U_C_Citizen_03",
-"U_I_G_resistanceLeader_F",
-"U_C_Poloshirt_blue",
-"U_C_Poloshirt_redwhite",
-"U_C_Poloshirt_tricolour",
-"CUP_U_B_GER_Flecktarn_2",
-"CUP_U_B_GER_Tropentarn_2",
+//Blufor Uniforms
+"CUP_U_B_BAF_DPM_S2_UnRolled",
+"CUP_U_B_BAF_DPM_S1_RolledUp",
+"CUP_U_B_BAF_MTP_S2_UnRolled",
+"CUP_U_B_BAF_MTP_S1_RolledUp",
+"CUP_U_B_GER_Tropentarn_1"
 "CUP_U_B_GER_Flecktarn_1",
-"CUP_U_B_GER_Tropentarn_1",
-"U_BG_Guerilla2_2",
-"U_BG_Guerilla2_1",
-"U_BG_Guerilla2_3",
-"U_BG_Guerilla3_1",
-"U_BG_leader",
-"U_C_Journalist",
-"CUP_O_TKI_Khet_Jeans_04",
-"CUP_O_TKI_Khet_Jeans_02",
-"CUP_O_TKI_Khet_Jeans_01",
-"CUP_O_TKI_Khet_Jeans_03",
-"CUP_U_B_USMC_Officer",
-"CUP_U_B_USMC_MARPAT_WDL_RollUpKneepad",
-"CUP_U_B_USMC_MARPAT_WDL_RolledUp",
-"CUP_U_B_USMC_MARPAT_WDL_Kneepad",
-"CUP_U_B_USMC_MARPAT_WDL_TwoKneepads",
-"CUP_U_B_USMC_MARPAT_WDL_Sleeves",
-"CUP_U_I_GUE_Flecktarn2",
-"CUP_U_I_GUE_Flecktarn3",
-"CUP_U_I_GUE_Flecktarn",
-"CUP_U_I_GUE_Woodland1",
-"CUP_B_USMC_Navy_Blue",
-"CUP_B_USMC_Navy_Brown",
-"CUP_B_USMC_Navy_Green",
-"CUP_U_O_Partisan_TTsKO",
-"CUP_U_O_Partisan_TTsKO_Mixed",
+
+//Blufor Ghillie
+"CUP_U_B_BAF_DPM_Ghillie"
+"CUP_U_B_USMC_Ghillie_WDL"
+
+
+
+//Opfor Uniforms
+"CUP_U_O_CHDKZ_Kam_03",
+"CUP_U_O_CHDKZ_Kam_04",
+"CUP_U_O_CHDKZ_Kam_05",
 "CUP_U_O_Partisan_VSR_Mixed1",
 "CUP_U_O_Partisan_VSR_Mixed2",
-"CUP_V_C_Police_Holster",
-"CUP_U_C_Policeman_01",
-"CUP_U_C_Priest_01",
-"CUP_U_C_Profiteer_02",
-"CUP_U_C_Profiteer_03",
-"CUP_U_C_Profiteer_04",
-"CUP_U_I_RACS_Desert_2",
-"CUP_U_I_RACS_Urban_2",
-"CUP_U_I_RACS_Desert_1",
-"CUP_U_I_RACS_Urban_1",
-"CUP_U_C_Rocker_01",
-"CUP_U_C_Rocker_03",
-"CUP_U_C_Rocker_02",
-"CUP_U_C_Rocker_04",
-"CUP_U_B_FR_DirAction2",
-"CUP_U_B_FR_Corpsman",
-"CUP_U_B_FR_Light",
-"CUP_U_B_FR_Scout1",
-"CUP_U_B_FR_Scout2",
-"CUP_U_B_FR_Scout3",
-"CUP_U_B_FR_Scout",
-"CUP_U_C_Suit_01",
-"CUP_U_C_Villager_01",
-"CUP_U_C_Villager_04",
-"CUP_U_C_Villager_02",
-"CUP_U_C_Villager_03",
-"CUP_U_C_Woodlander_01",
-"CUP_U_C_Woodlander_02",
-"CUP_U_C_Woodlander_03",
-"CUP_U_C_Woodlander_04",
-"CUP_U_C_Worker_01",
-"U_C_WorkerCoveralls"
+
+
+//Opfor Ghillie
+"CUP_U_O_RUS_Ghillie",
+
+
+
+//Indie Uniforms
+"CUP_U_I_GUE_Flecktarn",
+"CUP_U_I_GUE_Flecktarn3",
+"CUP_U_I_GUE_Woodland1",
+
+
+
+//Indie Ghillie
+"CUP_U_I_Ghillie_Top",
+
 
 //Headgear
 "H_Bandanna_gry",

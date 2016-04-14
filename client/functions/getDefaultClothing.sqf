@@ -37,7 +37,7 @@ switch (_side) do
 		{
 			case (_isSniper):
 			{
-				if (_item == "uniform") then { _result = "CUP_U_O_Partisan_TTsKO_Mixed" };
+				if (_item == "uniform") then { _result = "CUP_U_B_BAF_DPM_Ghillie" };
 				//if (_item == "vest") then { _result = _defaultVest };
 			};
 			case (_isDiver):
@@ -48,7 +48,7 @@ switch (_side) do
 			};
 			default
 			{
-				if (_item == "uniform") then { _result = "CUP_U_O_Partisan_VSR_Mixed2"};
+				if (_item == "uniform") then { _result = "CUP_U_B_BAF_MTP_S1_RolledUp"};
 				//if (_item == "vest") then { _result = _defaultVest };
 			};
 		};
@@ -57,11 +57,12 @@ switch (_side) do
 	};
 	case OPFOR:
 	{
+		diag_log "Pulling deafault cloting for OPFOR";
 		switch (true) do
 		{
 			case (_isSniper):
 			{
-				if (_item == "uniform") then { _result = "CUP_O_TKI_Khet_Jeans_01" };
+				if (_item == "uniform") then { _result = "CUP_U_O_RUS_Ghillie" };
 				//if (_item == "vest") then { _result = _defaultVest };
 			};
 			case (_isDiver):
@@ -72,7 +73,7 @@ switch (_side) do
 			};
 			default
 			{
-				if (_item == "uniform") then { _result = "CUP_O_TKI_Khet_Jeans_03"};
+				if (_item == "uniform") then { _result = "CUP_U_O_Partisan_VSR_Mixed2"};
 				//if (_item == "vest") then { _result = _defaultVest };
 			};
 		};
@@ -81,22 +82,23 @@ switch (_side) do
 	};
 	default
 	{
+		diag_log "Pulling default clothing for Default";
 		switch (true) do
 		{
 			case (_isSniper):
 			{
-				if (_item == "uniform") then { _result = "U_OG_Guerilla1_1" };
+				if (_item == "uniform") then { _result = "CUP_U_I_Ghillie_Top" };
 				//if (_item == "vest") then { _result = _defaultVest };
 			};
 			case (_isDiver):
 			{
-				if (_item == "uniform") then { _result = "U_OG_Guerilla2_1" };
+				if (_item == "uniform") then { _result = "CUP_U_I_GUE_Anorak_02" };
 				//if (_item == "vest") then { _result = "V_RebreatherIA" };
 				//if (_item == "goggles") then { _result = "G_Diving" };
 			};
 			default
 			{
-				if (_item == "uniform") then { _result = "U_OG_Guerilla2_2" };
+				if (_item == "uniform") then { _result = "CUP_U_I_GUE_Anorak_02"};
 				//if (_item == "vest") then { _result = _defaultVest };
 			};
 		};

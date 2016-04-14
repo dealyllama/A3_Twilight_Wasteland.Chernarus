@@ -17,12 +17,15 @@ DONE: replace default vehicles with CUP era ones
 
 DONE: Replace spawned soldiers with CUP era ones
 
-TODO: Reset player spawn to have basic clothing and a fanny pack or something small...
+DONE: Reset player spawn to have basic clothing and a fanny pack or something small...
+
+DONE: Figure out OpFor and Indie spawning - no uniforms...
+
+TODO: Look through the loot spawner some more - need to see if I can assign items by area as they are now, but also provide a percent chance to spawn to allow finer grained control.  Also need to see if I can control ammo explosions etc. and over population of LMGs etc.
+
+TODO: Change loot box spawn items to have a mix of CUP optics, rockets, attachments, etc.
 
 TODO: Check spawning and balancing, see how things feel vs. AI - overpowered?
-
-
-TODO: Need to create a tiered spawning system (e.g. civilian_pistol, military_pistol, civilian_rifle, military_rifle) - and maybe even tier it further so that some of the best weapons and variants are only available on the AI targets or similar
 
 TODO: Configure Blufor, Opfor, and Indie
 
