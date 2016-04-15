@@ -31,9 +31,33 @@ DONE: Change loot box spawn items to have a mix of CUP optics, rockets, attachme
 
 DONE: Subset Optics to the group that will actually span most NATO guns, lots of oddballs in CUP  Looks like ELCAN M145, Elcan Optic Reflex (nice), Any of the ACOG / Trijicon, and any of the EOTech.  Let's limit to that plus a couple soviet block and we're good.
 
-TODO: Get Stores up and running with appropriate gear and prices
+DONE: Get Stores up and running with appropriate gear and prices
 
-TODO: Get supply drops spawning with correct goodies
+TODO: See if I can get the Chernarus building updates up and running: https://github.com/IanHardy/ChernarusBuildings (Try instead of building replacer)
+
+TODO: Add Bor Military base to the mission map
+
+TODO: Add tents + field hospitals at Bor to building loot spawn table
+
+TODO: Add Novo Kamenka to the map
+
+TODO: Not sure about the Kamena addition, lots of messed up buildings, may need to adjust or eliminate.  Also need to figure out the unique buildings and add to spawn table (Yellow house for example)
+
+TODO: Add Northern airfield to mission map (065012)
+
+TODO: Add Dichina military base to map (south of NWAF)
+
+TODO: Add Novy Lug military base to the map (093038)
+
+TODO: Add little bird to heli spawn tables
+
+TODO: Fix gear and uniform prices
+
+TODO: Get Helicopters set up in Stores
+
+TODO: Get land vehicles set up in stores
+
+TODO: Get supply drops spawning with correct goodies (mags for LMGs, etc)
 
 TODO: Increase spawn radius of Cherno bubble - too small to include some key locations for loot
 

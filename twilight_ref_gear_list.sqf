@@ -55,7 +55,7 @@
  //Assault Rifles with GL
 "CUP_arifle_L85A2_GL"
 "CUP_arifle_AK74_GL",
-"CUP_arifle_M16A4_GL",
+"CUP_1Rnd_HE_M203",
 "CUP_arifle_M4A1_BUIS_GL"
 
 
@@ -88,6 +88,9 @@
 "CUP_arifle_MG36",
 "CUP_lmg_PKM",
 "CUP_arifle_RPK74_45",
+"CUP_lmg_Mk48_wdl",
+"CUP_lmg_m249_pip2"
+
 
 //LMG with optics
 "CUP_lmg_M249_ElcanM145_Laser",
@@ -258,6 +261,9 @@
 "CUP_U_B_BAF_MTP_S1_RolledUp",
 "CUP_U_B_GER_Tropentarn_1"
 "CUP_U_B_GER_Flecktarn_1",
+"CUP_U_B_FR_DirAction2",
+"CUP_U_B_FR_Scout2",
+
 
 //Blufor Ghillie
 "CUP_U_B_BAF_DPM_Ghillie"
@@ -271,6 +277,9 @@
 "CUP_U_O_CHDKZ_Kam_05",
 "CUP_U_O_Partisan_VSR_Mixed1",
 "CUP_U_O_Partisan_VSR_Mixed2",
+"CUP_U_O_RUS_Gorka_Green",
+"CUP_U_O_RUS_Gorka_Partizan",
+
 
 
 //Opfor Ghillie
@@ -282,8 +291,11 @@
 "CUP_U_I_GUE_Flecktarn",
 "CUP_U_I_GUE_Flecktarn3",
 "CUP_U_I_GUE_Woodland1",
-
-
+"CUP_U_I_GUE_Flecktarn2",
+"CUP_U_I_RACS_Urban_2",
+"CUP_U_I_RACS_Urban_1",
+"CUP_U_I_GUE_Anorak_02",
+"CUP_U_I_GUE_Anorak_01"
 
 //Indie Ghillie
 "CUP_U_I_Ghillie_Top",
