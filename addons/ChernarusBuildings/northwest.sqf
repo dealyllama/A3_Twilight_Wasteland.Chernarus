@@ -954,7 +954,7 @@ if (true) then
   _this setPos [4638.1963, 10477.274, 3.0517578e-005];
 };
 
-_vehicle_526 = objNull;
+/*_vehicle_526 = objNull;
 if (true) then
 {
   _this = createVehicle ["as_Land_Lamp_Small_EP1", [4637.8345, 10485.025], [], 0, "CAN_COLLIDE"];
@@ -962,6 +962,7 @@ if (true) then
   _this setDir 160.84882;
   _this setPos [4637.8345, 10485.025];
 };
+*/
 
 _vehicle_534 = objNull;
 if (true) then
@@ -1457,7 +1458,7 @@ if (true) then
   _this setPos [4477.8687, 10814.025, 5.6565843];
 };
 
-_vehicle_731 = objNull;
+/*_vehicle_731 = objNull;
 if (true) then
 {
   _this = createVehicle ["LightPole_DZ", [4157.1445, 10687.502, 9.1552734e-005], [], 0, "CAN_COLLIDE"];
@@ -1512,7 +1513,7 @@ if (true) then
   _this setDir -299.86435;
   _this setPos [3986.1829, 10731.703, 3.0517578e-005];
 };
-
+*/
 _vehicle_743 = objNull;
 if (true) then
 {
@@ -1540,6 +1541,7 @@ if (true) then
   _this setPos [3987.207, 10723.668, -3.0517578e-005];
 };
 
+/*
 _vehicle_747 = objNull;
 if (true) then
 {
@@ -1620,6 +1622,7 @@ if (true) then
   _this setDir -596.59497;
   _this setPos [4637.9575, 9601.0762, 3.0517578e-005];
 };
+*/
 
 _vehicle_779 = objNull;
 if (true) then
@@ -1654,6 +1657,7 @@ if (true) then
   _this setPos [4885.9517, 9577.0361];
 };
 
+/*
 _vehicle_791 = objNull;
 if (true) then
 {
@@ -1687,6 +1691,7 @@ if (true) then
   _vehicle_798 = _this;
   _this setPos [4893.8208, 9561.4746, 3.0517578e-005];
 };
+*/
 
 _vehicle_804 = objNull;
 if (true) then
@@ -5261,6 +5266,7 @@ if (true) then
   _this setPos [3885.2617, 10866.324, 6.1035156e-005];
 };
 
+/*
 _vehicle_1956 = objNull;
 if (true) then
 {
@@ -5270,6 +5276,7 @@ if (true) then
   //_this setVehicleInit "this setvectorup [0,0,1]";
   _this setPos [3878.2551, 10927.42, 3.0517578e-005];
 };
+*/
 
 _vehicle_1959 = objNull;
 if (true) then

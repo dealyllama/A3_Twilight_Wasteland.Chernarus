@@ -2141,6 +2141,7 @@ if (true) then
 };
 */
 
+/*
 _vehicle_246 = objNull;
 if (true) then
 {
@@ -2149,6 +2150,7 @@ if (true) then
   _this setDir 4.3418274;
   _this setPos [1283.4681, 2460.1021, 1.4305115e-006];
 };
+*/
 
 _vehicle_247 = objNull;
 if (true) then
@@ -3972,6 +3974,7 @@ if (true) then
   _this setPos [1182.859, 2532.7122, 6.6757202e-006];
 };
 
+/*
 _vehicle_560 = objNull;
 if (true) then
 {
@@ -3989,6 +3992,7 @@ if (true) then
   _this setDir 37.551678;
   _this setPos [1152.8014, 2296.9053, 4.4822693e-005];
 };
+*/
 
 _vehicle_562 = objNull;
 if (true) then
