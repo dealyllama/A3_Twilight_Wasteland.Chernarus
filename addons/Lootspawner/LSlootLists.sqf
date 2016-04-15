@@ -29,8 +29,7 @@ lootWeapon_list =
 			"CUP_smg_MP5A5",
 			"CUP_smg_MP5SD6",
 			"CUP_smg_bizon",
-			"CUP_arifle_AK47",
-			"CUP_arifle_AKM",
+			"CUP_arifle_AK74",
 			"CUP_arifle_FNFAL_railed",
 			"CUP_arifle_M16A4_Base",
 			"CUP_srifle_M14_DMR",
@@ -55,10 +54,7 @@ lootWeapon_list =
 			"CUP_optic_LeupoldMk4",
 
 			//Attachments
-			"CUP_acc_CZ_M3X",
 			"acc_pointer_IR",
-			"CUP_bipod_VLTOR_Modpod",
-			"CUP_bipod_Harris_1A2_L",
 
 			//Supressors
 			"CUP_muzzle_snds_M16_camo",
