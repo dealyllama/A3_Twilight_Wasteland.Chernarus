@@ -48,10 +48,10 @@ for "_i" from 1 to _nbUnits do
 		case (_i % 3 == 0):
 		{
 			_unit addUniform "U_B_CombatUniform_mcam_vest";
-			_unit addMagazine "1Rnd_HE_Grenade_shell";
+			_unit addMagazine "CUP_1Rnd_HE_GP25_M";
 			_unit addWeapon "CUP_arifle_AK74_GL";
-			_unit addMagazine "1Rnd_HE_Grenade_shell";
-			_unit addMagazine "1Rnd_HE_Grenade_shell";
+			_unit addMagazine "CUP_1Rnd_HE_GP25_M";
+			_unit addMagazine "CUP_1Rnd_HE_GP25_M";
 		};
 		// RPG every 7 units, starting from second one
 		case ((_i + 5) % 7 == 0):

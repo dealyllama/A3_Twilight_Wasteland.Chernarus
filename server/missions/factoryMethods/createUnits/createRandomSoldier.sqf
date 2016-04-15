@@ -107,7 +107,7 @@ _weaponTypes = 	[
 					"CUP_arifle_AK47",
 					"CUP_arifle_AKM",
 					"CUP_arifle_FNFAL_railed",
-					"CUP_arifle_M16A2",
+					"CUP_arifle_M16A4_Base",
 					"CUP_lmg_M240"
 				];
 

@@ -46,10 +46,10 @@ for "_i" from 1 to _nbUnits do
 		// Grenadier every 3 units
 		case (_i % 3 == 0):
 		{
-			_unit addMagazine "1Rnd_HE_Grenade_shell";
+			_unit addMagazine "CUP_1Rnd_HE_M203";
 			_unit addWeapon "CUP_arifle_M4A1_BUIS_GL";
-			_unit addMagazine "1Rnd_HE_Grenade_shell";
-			_unit addMagazine "1Rnd_HE_Grenade_shell";
+			_unit addMagazine "CUP_1Rnd_HE_M203";
+			_unit addMagazine "CUP_1Rnd_HE_M203";
 		};
 		// RPG every 7 units, starting from second one
 		case ((_i + 5) % 7 == 0):

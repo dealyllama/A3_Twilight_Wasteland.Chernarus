@@ -53,8 +53,8 @@ mediumMilitaryVehicles =
 //	"I_Truck_02_medical_F",
 //	"O_Truck_02_medical_F",
 	"CUP_B_HMMWV_M1114_USMC",
-	"CUP_B_LR_MG_CZ_W",
-	"CUP_B_Dingo_GER_Wdl"
+	"CUP_B_LR_MG_CZ_W"
+	//"CUP_B_Dingo_GER_Wdl"
 ];
 
 //Water Vehicles - Random Spawns
@@ -170,12 +170,7 @@ vehicleAddition =
 	"Medikit",
 	"Medikit",
 	"FirstAidKit",
-	"ToolKit",
-	"CUP_optic_CWS",
-	"CUP_optic_ACOG",
-	"CUP_muzzle_snds_M16_camo",
-	"CUP_muzzle_snds_M14"
-
+	"ToolKit"
 ];
 
 vehicleAddition2 =

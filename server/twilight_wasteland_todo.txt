@@ -21,11 +21,25 @@ DONE: Reset player spawn to have basic clothing and a fanny pack or something sm
 
 DONE: Figure out OpFor and Indie spawning - no uniforms...
 
-TODO: Look through the loot spawner some more - need to see if I can assign items by area as they are now, but also provide a percent chance to spawn to allow finer grained control.  Also need to see if I can control ammo explosions etc. and over population of LMGs etc.
+DONE: Look through the loot spawner some more - need to see if I can assign items by area as they are now, but also provide a percent chance to spawn to allow finer grained control.  Also need to see if I can control ammo explosions etc. and over population of LMGs etc. -- did some adjustments and compromized things to behave a little better.  Loot overhaul will be a major thing
 
-TODO: Change loot box spawn items to have a mix of CUP optics, rockets, attachments, etc.
+DONE: Fix grenade spawns for AK Grenade Launchers  --DONE
 
-TODO: Check spawning and balancing, see how things feel vs. AI - overpowered?
+DONE: Check spawning and balancing, see how things feel vs. AI - overpowered? -- still need to do something about laser vision...
+
+DONE: Change loot box spawn items to have a mix of CUP optics, rockets, attachments, etc.
+
+DONE: Subset Optics to the group that will actually span most NATO guns, lots of oddballs in CUP  Looks like ELCAN M145, Elcan Optic Reflex (nice), Any of the ACOG / Trijicon, and any of the EOTech.  Let's limit to that plus a couple soviet block and we're good.
+
+TODO: Get Stores up and running with appropriate gear and prices
+
+TODO: Get supply drops spawning with correct goodies
+
+TODO: Increase spawn radius of Cherno bubble - too small to include some key locations for loot
+
+TODO: Re-Activate ATMs for now
+
+TODO: Try and get DAC up and running at Balota Airfield
 
 TODO: Configure Blufor, Opfor, and Indie
 
@@ -33,7 +47,7 @@ TODO: Build out Blufor zone of control
 
 TODO: Build out Opfor zone of control
 
-TODO: Build out indie zone of control
+TODO: Build out indie zone of control -- idea, INDIE able to navigate either Opfor or Blufor AI zone - only engaged if hostile action is taken in area... might not work, but idea
 
 TODO: Add Blufor AI to zone of control
 

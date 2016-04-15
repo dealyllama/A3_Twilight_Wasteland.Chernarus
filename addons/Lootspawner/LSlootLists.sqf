@@ -17,7 +17,8 @@ lootWeapon_list =
 			"CUP_hgun_Duty",
 			"CUP_hgun_Colt1911",
 			"CUP_hgun_TaurusTracker455",
-			"CUP_srifle_LeeEnfield"
+			"CUP_srifle_LeeEnfield",
+			"CUP_sgun_M1014"
 	                    
 		]
 	],
@@ -31,14 +32,44 @@ lootWeapon_list =
 			"CUP_arifle_AK47",
 			"CUP_arifle_AKM",
 			"CUP_arifle_FNFAL_railed",
-			"CUP_arifle_M16A2",
-			"CUP_lmg_minimi_railed",
-			"CUP_lmg_M240",
+			"CUP_arifle_M16A4_Base",
 			"CUP_srifle_M14_DMR",
 			"CUP_srifle_M40A3",
 			"CUP_srifle_Mk12SPR",
 			"CUP_srifle_SVD",
-			"CUP_srifle_VSSVintorez"
+			"CUP_srifle_VSSVintorez",
+			"CUP_sgun_Saiga12K",
+			
+			//Scopes
+			"CUP_optic_ACOG",
+			"CUP_optic_TrijiconRx01_black",
+			"CUP_optic_ElcanM145",
+			"CUP_optic_Elcan_reflex",
+			"CUP_optic_HoloBlack",
+			"CUP_optic_HoloWdl",
+			"CUP_optic_Eotech533Grey",
+			"CUP_optic_Kobra",
+			"CUP_optic_PSO_1",
+			"CUP_optic_PSO_3",
+			"CUP_optic_PGO7V3",
+			"CUP_optic_LeupoldMk4",
+
+			//Attachments
+			"CUP_acc_CZ_M3X",
+			"acc_pointer_IR",
+			"CUP_bipod_VLTOR_Modpod",
+			"CUP_bipod_Harris_1A2_L",
+
+			//Supressors
+			"CUP_muzzle_snds_M16_camo",
+			"CUP_muzzle_snds_M14",
+			"CUP_muzzle_Bizon",
+			"CUP_muzzle_PB6P9",
+			"CUP_muzzle_PBS4",
+			"CUP_muzzle_snds_M9",
+			"CUP_muzzle_snds_L85"
+
+
 		]
 
 	],
@@ -48,7 +79,8 @@ lootWeapon_list =
 			"CUP_hgun_Duty",
 			"CUP_hgun_Glock17",
 			"CUP_hgun_TaurusTracker455",
-			"CUP_srifle_LeeEnfield"                      
+			"CUP_srifle_LeeEnfield",
+			"CUP_sgun_M1014"                      
 		]
 	],
 	[ // RESEARCH
@@ -84,15 +116,14 @@ lootMagazine_list =
 			"CUP_20Rnd_762x51_FNFAL_M",
 			"CUP_30Rnd_556x45_Stanag",
 			"CUP_20Rnd_556x45_Stanag",
-			"CUP_200Rnd_TE4_Green_Tracer_556x45_M249",
-			"CUP_5x_22_LR_17_HMR_M",
 			"CUP_10Rnd_762x51_CZ750",
 			"CUP_10x_303_M",
 			"CUP_20Rnd_762x51_DMR",
 			"CUP_5Rnd_762x51_M24",
 			"CUP_10Rnd_762x54_SVD_M",
-			"CUP_20Rnd_9x39_SP5_VSS_M"
-
+			"CUP_20Rnd_9x39_SP5_VSS_M",
+			"CUP_8Rnd_B_Saiga12_74Slug_M",
+			"CUP_8Rnd_B_Saiga12_74Pellets_M"
 		]
 	],
 	[ // INDUSTRIAL
@@ -131,7 +162,6 @@ lootItem_list =
 			"ItemCompass",
 			"FirstAidKit",
 			"ItemGPS",
-			"ItemRadio",
 
 			//Uniform
 
@@ -140,10 +170,6 @@ lootItem_list =
 			"V_Press_F",
 
 			//Hats - because people need to wear more hats.
-			"H_Bandanna_gry",
-			"H_Bandanna_blu",
-			"H_Bandanna_cbr",
-			"CUP_H_FR_BandanaGreen",
 			"H_Watchcap_blk",
 			"H_StrawHat",
 			"CUP_H_C_Ushanka_03",
@@ -165,118 +191,43 @@ lootItem_list =
 			"Binocular",
 			"ItemCompass",
 			"ItemRadio",
-		
-		//Uniform
+			"Rangefinder",
 
-		//Ghillies
 
 		//Fashionable Headwear
-		"H_Bandanna_gry",
-		"H_Bandanna_blu",
-		"H_Bandanna_cbr",
-		"CUP_H_FR_BandanaGreen",
-		"H_Watchcap_blk",
-		"CUP_H_C_Beanie_01",
-		"H_Beret_blk",
-		"CUP_H_C_Beret_04",
-		"CUP_H_C_Beret_02",
-		"H_Beret_02",
-		"CUP_H_Ger_Boonie_Flecktarn",
-		"CUP_H_FR_BoonieMARPAT",
-		"CUP_H_Ger_Boonie_desert",
-		"CUP_H_FR_BoonieWDL",
-		"H_Cap_grn_BI",
-		"H_Cap_blk_CMMG",
-		"H_Cap_grn",
-		"H_Cap_khaki_specops_UK",
-		"H_Cap_usblack",
-		"H_HelmetB",
-		"CUP_H_PMC_EP_Headset",
-		"CUP_H_SLA_Beret",
-		"CUP_H_NAPA_Fedora",
-		"CUP_H_RACS_Helmet_DPAT",
-		"CUP_H_RACS_Helmet_Goggles_DPAT",
-		"CUP_H_RACS_Helmet_Headset_DPAT",
-		"CUP_H_RACS_Helmet_Goggles_DES",
-		"H_Shemag_olive",
-		"CUP_H_TK_Helmet",
-		"CUP_H_C_Ushanka_03",
-		"CUP_H_USMC_Crew_Helmet",
-		"CUP_H_USMC_HelmetWDL",
-		"CUP_H_USMC_Goggles_HelmetWDL",
 
-		//Chest Rigs
-		"CUP_V_O_SLA_Flak_Vest03",
-		"CUP_V_O_SLA_Flak_Vest01",
-		"CUP_V_O_SLA_Flak_Vest02",
-		"CUP_V_I_Carrier_Belt",
-		"V_Chestrig_blk",
-		"V_Chestrig_rgr",
-		"V_Chestrig_khk",
-		"CUP_V_B_GER_Carrier_Vest",
-		"CUP_V_B_GER_Carrier_Vest_3",
-		"CUP_V_B_GER_Carrier_Vest_2",
-		"CUP_V_B_GER_Carrier_Rig_2",
-		"CUP_V_B_GER_Carrier_Rig_2_Brown",
-		"CUP_V_B_GER_Carrier_Rig",
-		"CUP_V_B_GER_Carrier_Rig_3_Brown",
-		"CUP_V_B_GER_Vest_1",
-		"CUP_V_B_GER_Vest_2",
-		"CUP_V_B_RRV_DA2",
-		"CUP_V_B_RRV_DA1",
-		"CUP_V_B_MTV_Pouches",
-		"CUP_V_B_MTV_PistolBlack",
-		"CUP_V_B_MTV",
-		"CUP_V_B_MTV_Mine",
-		"CUP_V_B_MTV_LegPouch",
-		"CUP_V_B_MTV_Marksman",
-		"CUP_V_B_MTV_MG",
-		"CUP_V_B_MTV_Patrol",
-		"CUP_V_B_MTV_noCB",
-		"CUP_V_B_MTV_TL",
-		"CUP_V_B_PilotVest",
-		"CUP_V_I_RACS_Carrier_Vest",
-		"CUP_V_I_RACS_Carrier_Vest_3",
-		"CUP_V_I_RACS_Carrier_Vest_2",
-		"CUP_V_I_RACS_Carrier_Rig_2",
-		"CUP_V_I_RACS_Carrier_Rig_3",
-		"CUP_V_B_RRV_MG",
-		"CUP_V_B_RRV_Medic",
-		"CUP_V_B_RRV_Officer",
-		"CUP_V_B_RRV_Scout",
-		"CUP_V_B_RRV_Scout2",
-		"CUP_V_B_RRV_Scout3",
-		"CUP_V_B_RRV_TL",
-		"CUP_V_O_TK_Vest_1",
-		"CUP_V_O_TK_Vest_2",
+			"CUP_H_Ger_Boonie_Flecktarn",
+			"CUP_H_FR_BoonieMARPAT",
+			"CUP_H_Ger_Boonie_desert",
+			"H_HelmetB",
+			"CUP_H_PMC_EP_Headset",
+			"CUP_H_RACS_Helmet_DPAT",
+			"CUP_H_RACS_Helmet_Headset_DPAT",
+			"H_Shemag_olive",
+			"CUP_H_TK_Helmet",
+			"CUP_H_USMC_Crew_Helmet",
+			"CUP_H_USMC_HelmetWDL",
+			"CUP_H_USMC_Goggles_HelmetWDL",
 
-		//Scopes
-		"CUP_optic_CWS",
-		"CUP_optic_ACOG",
-
-
-		//Attachments
-		"CUP_acc_CZ_M3X",
-		"acc_flashlight",
-		"CUP_acc_Flashlight",
-		"CUP_acc_Flashlight_desert",
-		"CUP_acc_Flashlight_wdl",
-		"CUP_acc_Glock17_Flashlight",
-		"acc_pointer_IR",
-		"CUP_bipod_VLTOR_Modpod",
-		"CUP_bipod_Harris_1A2_L",
-
-		//Supressors
-		"CUP_muzzle_snds_M16_camo",
-		"CUP_muzzle_snds_M14"
-
+			//Chest Rigs
+			"CUP_V_O_SLA_Flak_Vest01",
+			"CUP_V_I_Carrier_Belt",
+			"CUP_V_B_GER_Carrier_Vest_2",
+			"CUP_V_B_GER_Vest_1",
+			"CUP_V_B_GER_Vest_2",
+			"CUP_V_B_MTV_Pouches",
+			"CUP_V_B_MTV_Marksman",
+			"CUP_V_B_PilotVest",
+			"CUP_V_I_RACS_Carrier_Vest",
+			"CUP_V_B_RRV_MG",
+			"CUP_V_B_RRV_Scout"
 
 		]
 	],
 	[ // INDUSTRIAL
 		2,
 		[
-//Generic Gear
+			//Generic Gear
 			"Binocular",
 			"ItemCompass",
 			"FirstAidKit",
@@ -312,10 +263,7 @@ lootItem_list =
 			"Medikit",
 			"Binocular",
 			"ItemCompass",
-			"ItemRadio",
-		
-		//Uniforms
-		"CUP_U_B_CZ_WDL_TShirt"
+			"ItemRadio"
 
 		]
 	]

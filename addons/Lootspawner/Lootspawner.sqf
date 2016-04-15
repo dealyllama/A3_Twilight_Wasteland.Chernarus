@@ -10,7 +10,7 @@ private["_buildingname","_chfullfuel","_chperSpot","_class","_dbgloopTime","_dbg
 //-------------------------------------------------------------------------------------
 //Switch
 swDebugLS = false;                  //Debug messages on/off
-swSpZadjust = false;                //needed for ArmA 2 and older Maps/Buildings -> true
+swSpZadjust = true;                //needed for ArmA 2 and older Maps/Buildings -> true
 
 //-------------------------------------------------------------------------------------
 //Variables
@@ -30,10 +30,10 @@ _tmpTstPlace = [14730, 16276, 0];   //Coord's, in [x,y,z] of a preferably flat a
 //-------------- A VALUE OF '0' RESULTS IN NO LOOT FOR THIS CLASS AND TYPE ----------------
 spawnClassChance_list =
 [
-	[0.5, 0.25, 3.0, 1.0, 1.0], // civil
-	[1.5, 2.0, 1.5, 0.5, 1.5],  // military
-	[0.5, 1.0, 3.0, 0.25, 5.0], // industrial
-	[1.0, 1.5, 3.0, 0, 0]       // research
+	[0.5, 0.25, 1.0, 1.0, 1.0], // civil
+	[1.5, 0.5, 1.5, 0.5, 1.5],  // military
+	[0.5, 0.5, 1.0, 1.0, 3.0], // industrial
+	[1.0, 0.5, 1.0, 0, 0]       // research
 ];
 
 if (["A3W_buildingLootWeapons", 1] call getPublicVar == 0) then
@@ -160,7 +160,7 @@ getListBuildingPositionjunction = {
 							};
 							_posnew = [_posnew select 0, _posnew select 1, (_posnew select 2) + 0.05];
 							_posAdjustZ = (_posOrg select 2) - (_posnew select 2);
-//                          diag_log format["-- LOOTSPAWNER DEBUG adjusted %1 times", _z];
+	                        //diag_log format["-- LOOTSPAWNER DEBUG adjusted %1 times", _z];
 							_posAdjustZlist pushBack _posAdjustZ;
 						} else {
 							_posAdjustZlist pushBack _posAdjustZ;

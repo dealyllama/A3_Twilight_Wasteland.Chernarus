@@ -18,60 +18,64 @@ currentOwnerName = "";
 pistolArray = compileFinal str
 [
 	// Handguns
-	["CZ Duty Pistol", "CUP_hgun_Duty", 50],
-	["Glock 17", "CUP_hgun_Glock17", 50],
-	["Colt 1911", "CUP_hgun_Colt1911", 75],
-	["M9", "CUP_hgun_M9", 75],
-	["Taurus Tracker", "CUP_hgun_TaurusTracker455", 100]
+	["CZ Duty Pistol", "CUP_hgun_Duty", 300],
+	["Glock 17", "CUP_hgun_Glock17", 350],
+	["Colt 1911", "CUP_hgun_Colt1911", 350],
+	["M9", "CUP_hgun_M9", 300],
+	["Taurus Tracker", "CUP_hgun_TaurusTracker455", 400]
 ];
 
 smgArray = compileFinal str
 [
-	["PDW2000 SMG", "hgun_PDW2000_F", 100],
-	["Sting SMG", "SMG_02_F", 125],
-	["Vermin SMG", "SMG_01_F", 125]
+	["", "CUP_smg_MP5A5", 1500],
+	["", "CUP_smg_bizon", 1800],
+	["", "CUP_smg_MP5SD6", 2000]
 ];
 
 rifleArray = compileFinal str
 [
 
 	// Assault Rifles
-	["M16A2", "CUP_arifle_M16A2", 150],
-	["M4A1", "CUP_arifle_M4A1", 150],
-	["AK47", "CUP_arifle_AK47", 150],
-	["AK74", "CUP_arifle_AK74", 150],
-	["FN FAL", "CUP_arifle_FNFAL", 150],
+	["M16A2", "CUP_arifle_M16A4_Basic", 2500],
+	["M4A1", "CUP_arifle_M4A1", 2500],
+	["AK74", "CUP_arifle_AK74", 1800],
+	["FN FAL", "CUP_arifle_FNFAL_railed", 2700],
 
 	// Markman Rifles
-	["MXM Rifle", "arifle_MXM_F", 300],
+	["", "CUP_srifle_M14_DMR", 4000],
+	["", "CUP_srifle_Mk12SPR", 3500],
+	["", "CUP_srifle_VSSVintorez", 3000],
+
 
 	// Sniper Rifles
-	["M320 LRR Sniper", "srifle_LRR_LRPS_F", 1000]
+	["", "CUP_srifle_SVD", 5000],
+	["", "CUP_srifle_M40A3", 6000],
+
+	//Shoties
+	["", "CUP_sgun_Saiga12K", 1500],
+	["", "CUP_sgun_M1014", 1000]
 ];
 
 lmgArray = compileFinal str
 [
-	["MX SW LMG", "arifle_MX_SW_F", 300],
-	["MX SW LMG (Black)", "arifle_MX_SW_Black_F", 325],
-	["Mk200 LMG", "LMG_Mk200_F", 400],
-	["Zafir LMG", "LMG_Zafir_F", 500],
-	["Navid MMG (Tan) [DLC]", "MMG_01_tan_F", 750],
-	["Navid MMG (Hex) [DLC]", "MMG_01_hex_F", 750],
-	["SPMG MMG (Sand) [DLC]", "MMG_02_sand_F", 750],
-	["SPMG MMG (MTP) [DLC]", "MMG_02_camo_F", 750],
-	["SPMG MMG (Black) [DLC]", "MMG_02_black_F", 800]
+	["", "CUP_lmg_minimi_railed", 8000],
+	["", "CUP_lmg_M240", 9000],
+	["", "CUP_lmg_PKM", 5000],
+	["", "CUP_arifle_RPK74_45", 3000],
+	["", "CUP_lmg_Mk48_wdl", 12000],
+	["", "CUP_lmg_m249_pip2", 10000]
+
 ];
 
 launcherArray = compileFinal str
 [
-	["RPG-42 Alamut", "launch_RPG32_F", 400],
-	["PCML", "launch_NLAW_F", 600],
-	["Titan MPRL Compact (Tan)", "launch_Titan_short_F", 500],
-	["Titan MPRL Compact (Brown)", "launch_O_Titan_short_F", 500],
-	["Titan MPRL Compact (Olive)", "launch_I_Titan_short_F", 500],
-	["Titan MPRL AA (Desert)", "launch_Titan_F", 600],
-	["Titan MPRL AA (Hex)", "launch_O_Titan_F", 600],
-	["Titan MPRL AA (Digi)", "launch_I_Titan_F", 600]
+	["", "CUP_launch_Javelin", 15000],
+	["", "CUP_launch_FIM92Stinger", 10000],
+	["", "CUP_launch_Igla", 8000],
+	["", "CUP_launch_MAAWS", 9000],
+	["", "CUP_launch_RPG7V", 5000],
+	["", "CUP_launch_9K32Strela", 7000]
+	
 ];
 
 allGunStoreFirearms = compileFinal str (call pistolArray + call smgArray + call rifleArray + call lmgArray + call launcherArray);
@@ -79,47 +83,21 @@ allGunStoreFirearms = compileFinal str (call pistolArray + call smgArray + call 
 staticGunsArray = compileFinal str
 [
 	// ["Vehicle Ammo Crate", "Box_NATO_AmmoVeh_F", 2500],
-	["Static Titan AT 4Rnd (NATO)", "B_static_AT_F", 2500], // Static launchers only have 4 ammo, hence the low price
-	["Static Titan AT 4Rnd (CSAT)", "O_static_AT_F", 2500],
-	["Static Titan AT 4Rnd (AAF)", "I_static_AT_F", 2500],
-	["Static Titan AA 4Rnd (NATO)", "B_static_AA_F", 3000],
-	["Static Titan AA 4Rnd (CSAT)", "O_static_AA_F", 3000],
-	["Static Titan AA 4Rnd (AAF)", "I_static_AA_F", 3000],
-	["Mk30 HMG .50 Low tripod (NATO)", "B_HMG_01_F", 2000],
-	["Mk30 HMG .50 Low tripod (CSAT)", "O_HMG_01_F", 2000],
-	["Mk30 HMG .50 Low tripod (AAF)", "I_HMG_01_F", 2000],
-	// ["Mk30A HMG .50 Sentry (NATO)", "B_HMG_01_A_F", 5000], // "A" = Autonomous = Overpowered
-	// ["Mk30A HMG .50 Sentry (CSAT)", "O_HMG_01_A_F", 5000],
-	// ["Mk30A HMG .50 Sentry (AAF)", "I_HMG_01_A_F", 5000],
-	["Mk30 HMG .50 High tripod (NATO)", "B_HMG_01_high_F", 3000],
-	["Mk30 HMG .50 High tripod (CSAT)", "O_HMG_01_high_F", 3000],
-	["Mk30 HMG .50 High tripod (AAF)", "I_HMG_01_high_F", 3000],
-	["Mk32 GMG 20mm Low tripod (NATO)", "B_GMG_01_F", 5000],
-	["Mk32 GMG 20mm Low tripod (CSAT)", "O_GMG_01_F", 5000],
-	["Mk32 GMG 20mm Low tripod (AAF)", "I_GMG_01_F", 5000],
-	// ["Mk32A GMG 20mm Sentry (NATO)", "B_GMG_01_A_F", 10000],
-	// ["Mk32A GMG 20mm Sentry (CSAT)", "O_GMG_01_A_F", 10000],
-	// ["Mk32A GMG 20mm Sentry (AAF)", "I_GMG_01_A_F", 10000],
-	["Mk32 GMG 20mm High tripod (NATO)", "B_GMG_01_high_F", 6000],
-	["Mk32 GMG 20mm High tripod (CSAT)", "O_GMG_01_high_F", 6000],
-	["Mk32 GMG 20mm High tripod (AAF)", "I_GMG_01_high_F", 6000],
-	["Mk6 Mortar (NATO)", "B_Mortar_01_F", 12500],
-	["Mk6 Mortar (CSAT)", "O_Mortar_01_F", 12500],
-	["Mk6 Mortar (AAF)", "I_Mortar_01_F", 12500]
+	["Mk6 Mortar (AAF)", "I_Mortar_01_F", 20000]
 ];
 
 throwputArray = compileFinal str
 [
-	["Mini Grenade", "MiniGrenade", 50],
-	["Frag Grenade", "HandGrenade", 100],
-	["APERS Tripwire Mine", "APERSTripMine_Wire_Mag", 200],
-	["APERS Bounding Mine", "APERSBoundingMine_Range_Mag", 250],
-	["APERS Mine", "APERSMine_Range_Mag", 300],
-	["Claymore Charge", "ClaymoreDirectionalMine_Remote_Mag", 350],
-	["M6 SLAM Mine", "SLAMDirectionalMine_Wire_Mag", 350],
-	["AT Mine", "ATMine_Range_Mag", 400],
-	["Explosive Charge", "DemoCharge_Remote_Mag", 450],
-	["Explosive Satchel", "SatchelCharge_Remote_Mag", 500],
+	["Mini Grenade", "MiniGrenade", 200],
+	["Frag Grenade", "HandGrenade", 300],
+	["APERS Tripwire Mine", "APERSTripMine_Wire_Mag", 500],
+	["APERS Bounding Mine", "APERSBoundingMine_Range_Mag", 500],
+	["APERS Mine", "APERSMine_Range_Mag", 400],
+	["Claymore Charge", "ClaymoreDirectionalMine_Remote_Mag", 300],
+	["M6 SLAM Mine", "SLAMDirectionalMine_Wire_Mag", 600],
+	["AT Mine", "ATMine_Range_Mag", 700],
+	["Explosive Charge", "DemoCharge_Remote_Mag", 750],
+	["Explosive Satchel", "SatchelCharge_Remote_Mag", 800],
 	["Smoke Grenade (White)", "SmokeShell", 50],
 	["Smoke Grenade (Purple)", "SmokeShellPurple", 50],
 	["Smoke Grenade (Blue)", "SmokeShellBlue", 50],
@@ -138,43 +116,171 @@ ammoArray = compileFinal str
 	["M1911 Mag", "CUP_7Rnd_45ACP_1911", 10],
 	["M9 Mag", "CUP_15Rnd_9x19_M9", 10],
 	["Taurus Tracker Speedloader", "CUP_6Rnd_45ACP_M", 10],
-	["AK47 Mag", "CUP_30Rnd_762x39_AK47_M", 10],
 	["AK74 Mag", "CUP_30Rnd_545x39_AK_M", 10],
 	["30Rnd STANAG", "CUP_30Rnd_556x45_Stanag", 10],
 	["20Rnd STANAG", "CUP_20Rnd_556x45_Stanag", 10],
-	["FN FAL Mag", "CUP_20Rnd_762x51_FNFAL_M", 10]
+	["", "CUP_30Rnd_9x19_MP5", 10],
+	["", "CUP_8Rnd_B_Beneli_74Slug", 10],
+	["", "CUP_8Rnd_B_Beneli_74Pellets", 10],
+	["", "CUP_8Rnd_B_Saiga12_74Slug_M", 10],
+	["", "CUP_8Rnd_B_Saiga12_74Pellets_M", 10],
+	["", "CUP_200Rnd_TE4_Green_Tracer_556x45_M249", 10],
+	["", "CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M", 10],
+	["", "CUP_100Rnd_556x45_BetaCMag", 10],
+	["", "CUP_100Rnd_TE1_Red_Tracer_556x45_BetaCMag", 10],
+	["", "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M", 10],
+	["", "CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M", 10],
+	["", "CUP_100Rnd_556x45_BetaCMag", 10],
+	["", "CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M", 10],
+	["", "CUP_20Rnd_762x51_FNFAL_M", 10],
+	["", "CUP_5x_22_LR_17_HMR_M", 10],
+	["", "CUP_10x_303_M", 10],
+	["", "CUP_20Rnd_762x51_DMR", 10],
+	["", "CUP_5Rnd_762x51_M24", 10],
+	["", "CUP_10Rnd_762x54_SVD_M", 10],
+	["", "CUP_20Rnd_9x39_SP5_VSS_M", 10],
+	["", "CUP_Javelin_M", 10],
+	["", "CUP_Stinger_M", 10],
+	["", "CUP_Igla_M", 10],
+	["", "CUP_MAAWS_HEAT_M", 10],
+	["", "CUP_MAAWS_HEDP_M", 10],
+	["", "CUP_PG7V_M", 10],
+	["", "CUP_PG7VM_M", 10],
+	["", "CUP_Strela_2_M", 10]
 ];
 
 //Gun Store item List
 //Text name, classname, buy cost, item class
 accessoriesArray = compileFinal str
 [
-	["Suppressor 9mm", "muzzle_snds_L", 50, "item"]
+
+	["", "CUP_muzzle_snds_L85", 50, "item"],
+	["", "CUP_muzzle_snds_M16_camo", 50, "item"],
+	["", "CUP_muzzle_snds_M14", 50, "item"],
+	["", "CUP_muzzle_snds_M9", 50, "item"],
+	["", "CUP_optic_ACOG", 50, "item"],
+	["", "CUP_optic_TrijiconRx01_black", 50, "item"],
+	["", "CUP_optic_ElcanM145", 50, "item"],
+	["", "CUP_optic_Elcan_reflex", 50, "item"],
+	["", "CUP_optic_HoloBlack", 50, "item"],
+	["", "CUP_optic_HoloWdl", 50, "item"],
+	["", "CUP_optic_Eotech533Grey", 50, "item"],
+	["", "CUP_optic_Kobra", 50, "item"],
+	["", "CUP_optic_PSO_1", 50, "item"],
+	["", "CUP_optic_PSO_3", 50, "item"],
+	["", "CUP_optic_PGO7V3", 50, "item"],
+	["", "CUP_optic_LeupoldMk4snds_L", 50, "item"]
 ];
 
 // If commented, means the color/camo isn't implemented or is a duplicate of another hat
 headArray = compileFinal str
 [
-	["ECH", "H_HelmetB", 50, "hat"]
+
+	["", "CUP_H_Ger_Boonie_Flecktarn", 50, "hat"],
+	["", "CUP_H_FR_BoonieMARPAT", 50, "hat"],
+	["", "CUP_H_Ger_Boonie_desert", 50, "hat"],
+	["", "H_HelmetB", 50, "hat"],
+	["", "CUP_H_PMC_EP_Headset", 50, "hat"],
+	["", "CUP_H_RACS_Helmet_DPAT", 50, "hat"],
+	["", "CUP_H_RACS_Helmet_Headset_DPAT", 50, "hat"],
+	["", "H_Shemag_olive", 50, "hat"],
+	["", "CUP_H_TK_Helmet", 50, "hat"],
+	["", "CUP_H_USMC_Crew_Helmet", 50, "hat"],
+	["", "CUP_H_USMC_HelmetWDL", 50, "hat"],
+	["", "CUP_H_USMC_Goggles_HelmetWDL", 50, "hat"]
+
+
 ];
 
 uniformArray = compileFinal str
 [
-	["Ghillie Suit (NATO)", "U_B_GhillieSuit", 300, "uni"]
+
+	["", "CUP_U_B_BAF_DPM_S2_UnRolled", 300, "uni"],
+	["", "CUP_U_B_BAF_DPM_S1_RolledUp", 300, "uni"],
+	["", "CUP_U_B_BAF_MTP_S2_UnRolled", 300, "uni"],
+	["", "CUP_U_B_BAF_MTP_S1_RolledUp", 300, "uni"],
+	["", "CUP_U_B_GER_Tropentarn_1", 300, "uni"],
+	["", "CUP_U_B_GER_Flecktarn_1", 300, "uni"],
+	["", "CUP_U_B_FR_DirAction2", 300, "uni"],
+	["", "CUP_U_B_FR_Scout2", 300, "uni"],
+	["", "CUP_U_B_BAF_DPM_Ghillie", 300, "uni"],
+	["", "CUP_U_B_USMC_Ghillie_WDL", 300, "uni"],
+	["", "CUP_U_O_CHDKZ_Kam_03", 300, "uni"],
+	["", "CUP_U_O_CHDKZ_Kam_04", 300, "uni"],
+	["", "CUP_U_O_CHDKZ_Kam_05", 300, "uni"],
+	["", "CUP_U_O_Partisan_VSR_Mixed1", 300, "uni"],
+	["", "CUP_U_O_Partisan_VSR_Mixed2", 300, "uni"],
+	["", "CUP_U_O_RUS_Gorka_Green", 300, "uni"],
+	["", "CUP_U_O_RUS_Gorka_Partizan", 300, "uni"],
+	["", "CUP_U_O_RUS_Ghillie", 300, "uni"],
+	["", "CUP_U_I_GUE_Flecktarn", 300, "uni"],
+	["", "CUP_U_I_GUE_Flecktarn3", 300, "uni"],
+	["", "CUP_U_I_GUE_Woodland1", 300, "uni"],
+	["", "CUP_U_I_GUE_Flecktarn2", 300, "uni"],
+	["", "CUP_U_I_RACS_Urban_2", 300, "uni"],
+	["", "CUP_U_I_RACS_Urban_1", 300, "uni"],
+	["", "CUP_U_I_GUE_Anorak_02", 300, "uni"],
+	["", "CUP_U_I_GUE_Anorak_01", 300, "uni"],	
+	["", "CUP_U_I_Ghillie_Top", 300, "uni"]
+
 ];
 
 vestArray = compileFinal str
 [
-	["Chest Rig (Green)", "V_Chestrig_rgr", -1, "vest"]
+
+	["", "CUP_V_O_SLA_Flak_Vest01", 100, "vest"],
+	["", "CUP_V_I_Carrier_Belt", 100, "vest"],
+	["", "CUP_V_B_GER_Carrier_Vest_2", 100, "vest"],
+	["", "CUP_V_B_GER_Vest_1", 100, "vest"],
+	["", "CUP_V_B_GER_Vest_2", 100, "vest"],
+	["", "CUP_V_B_MTV_Pouches", 100, "vest"],
+	["", "CUP_V_B_MTV_Marksman", 100, "vest"],
+	["", "CUP_V_B_PilotVest", 100, "vest"],
+	["", "CUP_V_I_RACS_Carrier_Vest", 100, "vest"],
+	["", "CUP_V_B_RRV_MG", 100, "vest"],
+	["", "CUP_V_B_RRV_Scout", 100, "vest"]
 ];
 
 backpackArray = compileFinal str
 [
 
-	["Carryall (Khaki)", "B_Carryall_khk", 500, "backpack"],
-	["Carryall (MTP)", "B_Carryall_mcamo", 500, "backpack"],
-	["Carryall (Olive)", "B_Carryall_oli", 500, "backpack"],
-	["Carryall (Urban)", "B_Carryall_oucamo", 500, "backpack"]
+/*
+			"B_FieldPack_blk",
+			"B_FieldPack_cbr",
+			"B_FieldPack_khk",
+			"B_FieldPack_oucamo",
+			"B_Kitbag_cbr",
+			"B_Kitbag_rgr",
+			"B_Kitbag_mcamo",
+			"B_Kitbag_sgg",
+			"B_Bergen_blk",
+			"B_Bergen_rgr",
+			"B_Bergen_mcamo",
+			"B_Bergen_sgg",
+			"B_Carryall_khk",
+			"B_Carryall_mcamo",
+			"B_Carryall_oli",
+			"B_Carryall_oucamo"
+
+*/
+
+	["", "B_FieldPack_blk", 500, "backpack"],
+	["", "B_FieldPack_cbr", 500, "backpack"],
+	["", "B_FieldPack_khk", 500, "backpack"],
+	["", "B_FieldPack_oucamo", 500, "backpack"],
+	["", "B_Kitbag_cbr", 500, "backpack"],
+	["", "B_Kitbag_rgr", 500, "backpack"],
+	["", "B_Kitbag_mcamo", 500, "backpack"],
+	["", "B_Kitbag_sgg", 500, "backpack"],
+	["", "B_Bergen_blk", 500, "backpack"],
+	["", "B_Bergen_rgr", 500, "backpack"],
+	["", "B_Bergen_mcamo", 500, "backpack"],
+	["", "B_Bergen_sgg", 500, "backpack"],
+	["", "B_Carryall_khk", 500, "backpack"],
+	["", "B_Carryall_mcamo", 500, "backpack"],
+	["", "B_Carryall_oli", 500, "backpack"],
+	["", "B_Carryall_oucamo", 500, "backpack"]
+
 ];
 
 genItemArray = compileFinal str

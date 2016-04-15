@@ -35,8 +35,8 @@ switch (_boxType) do
 		_boxItems =
 		[
 			// Item type, Item class(es), # of items, # of magazines per weapon
-			["wep", ["launch_RPG32_F", "launch_NLAW_F", "launch_Titan_short_F"], RANDOM_BETWEEN(3,5), RANDOM_BETWEEN(1,2)],
-			["wep", "launch_Titan_F", RANDOM_BETWEEN(1,2), RANDOM_BETWEEN(1,2)],
+			["wep", ["CUP_launch_Javelin", "CUP_launch_RPG7V", "CUP_launch_MAAWS"], RANDOM_BETWEEN(3,5), RANDOM_BETWEEN(1,2)],
+			["wep", "CUP_launch_FIM92Stinger", RANDOM_BETWEEN(1,2), RANDOM_BETWEEN(1,2)],
 			["mag", ["ClaymoreDirectionalMine_Remote_Mag", "SLAMDirectionalMine_Wire_Mag", "ATMine_Range_Mag", "DemoCharge_Remote_Mag", "SatchelCharge_Remote_Mag"], RANDOM_BETWEEN(3,8)]
 		];
 	};
@@ -49,15 +49,12 @@ switch (_boxType) do
 			["wep", ["Binocular", "Rangefinder"], RANDOM_BETWEEN(1,5)],
 			["itm", "Medikit", RANDOM_BETWEEN(1,3)],
 			["itm", "Toolkit", RANDOM_BETWEEN(0,1)],
-			["itm", ["optic_MRCO", "optic_Arco", "optic_Hamr", "optic_SOS"], RANDOM_BETWEEN(0,2)],
-			["itm", ["muzzle_snds_M", "muzzle_snds_H", "muzzle_snds_H_MG", "muzzle_snds_B", "muzzle_snds_acp"], RANDOM_BETWEEN(0,3)],
-			["wep", ["hgun_Pistol_heavy_01_F", "hgun_Pistol_heavy_01_MRD_F", "hgun_Pistol_heavy_02_F", "hgun_Pistol_heavy_02_Yorris_F"], RANDOM_BETWEEN(1,3), RANDOM_BETWEEN(3,5)],
-			["wep", ["arifle_MXM_F", "srifle_EBR_F", "srifle_DMR_01_DMS_F"], RANDOM_BETWEEN(1,3), RANDOM_BETWEEN(4,6)],
-			["wep", ["LMG_Mk200_F", "LMG_Zafir_F"], RANDOM_BETWEEN(1,3), RANDOM_BETWEEN(2,4)],
-			["mag", "30Rnd_556x45_Stanag", RANDOM_BETWEEN(4,8)],
-			["mag", "30Rnd_65x39_caseless_mag", RANDOM_BETWEEN(4,8)],
-			["mag", "30Rnd_65x39_caseless_green", RANDOM_BETWEEN(4,8)],
-			["mag", "9Rnd_45ACP_Mag", RANDOM_BETWEEN(1,5)]
+			["itm", ["CUP_optic_Eotech533Grey", "CUP_optic_ACOG", "CUP_optic_RCO", "CUP_optic_PSO_1", "CUP_optic_CompM4", "CUP_optic_ELCAN_SpecterDR", "CUP_optic_Elcan_reflex"], RANDOM_BETWEEN(2,4)],
+			["itm", ["CUP_muzzle_snds_L85", "CUP_muzzle_snds_M16_camo", "CUP_muzzle_snds_M14", "CUP_muzzle_snds_M9"], RANDOM_BETWEEN(0,3)],
+			["wep", ["CUP_hgun_M9", "CUP_hgun_TaurusTracker455", "CUP_hgun_Glock17", "CUP_hgun_Duty"], RANDOM_BETWEEN(1,3), RANDOM_BETWEEN(3,5)],
+			["wep", ["CUP_srifle_M14_DMR", "CUP_srifle_Mk12SPR", "CUP_srifle_VSSVintorez"], RANDOM_BETWEEN(1,3), RANDOM_BETWEEN(4,6)],
+			["wep", ["CUP_lmg_minimi_railed", "CUP_lmg_minimipara", "CUP_lmg_M240", "CUP_arifle_RPK74_45", "CUP_lmg_Mk48_wdl_Aim_Laser"], RANDOM_BETWEEN(1,3), RANDOM_BETWEEN(2,4)],
+			["mag", "30Rnd_556x45_Stanag", RANDOM_BETWEEN(4,8)]
 		];
 	};
 	case "mission_Main_A3snipers":
@@ -65,8 +62,8 @@ switch (_boxType) do
 		_boxItems =
 		[
 			// Item type, Item class(es), # of items, # of magazines per weapon
-			["wep", ["srifle_LRR_LRPS_F", "srifle_LRR_camo_LRPS_F", "srifle_GM6_LRPS_F", "srifle_GM6_camo_LRPS_F"], RANDOM_BETWEEN(1,3), RANDOM_BETWEEN(4,6)],
-			["wep", ["srifle_EBR_F", "srifle_DMR_01_F"], RANDOM_BETWEEN(1,3), RANDOM_BETWEEN(4,6)],
+			["wep", ["CUP_srifle_M14_DMR_LeupoldMk4_snds", "CUP_srifle_M24_wdl_LeupoldMk4LRT", "CUP_srifle_Mk12SPR_LeupoldM3LR_bipod", "CUP_srifle_SVD_des_ghillie_pso"], RANDOM_BETWEEN(1,3), RANDOM_BETWEEN(4,6)],
+			["wep", ["CUP_srifle_VSSVintorez_pso"], RANDOM_BETWEEN(1,3), RANDOM_BETWEEN(4,6)],
 			["wep", ["Binocular", "Rangefinder"], RANDOM_BETWEEN(1,3)],
 			["itm", "optic_DMS", RANDOM_BETWEEN(1,2)]
 		];
