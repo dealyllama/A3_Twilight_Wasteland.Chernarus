@@ -30,10 +30,16 @@ _tmpTstPlace = [14730, 16276, 0];   //Coord's, in [x,y,z] of a preferably flat a
 //-------------- A VALUE OF '0' RESULTS IN NO LOOT FOR THIS CLASS AND TYPE ----------------
 spawnClassChance_list =
 [
+/*
 	[0.5, 0.25, 1.0, 1.0, 1.0], // civil
 	[1.5, 0.5, 1.5, 0.5, 1.5],  // military
 	[0.5, 0.5, 1.0, 1.0, 3.0], // industrial
 	[1.0, 0.5, 1.0, 0, 0]       // research
+*/
+	[100, 100, 100, 100, 100], // civil
+	[100, 100, 100, 100, 100],
+	[100, 100, 100, 100, 100], // industrial
+	[100, 100, 100, 100, 100]       // research
 ];
 
 if (["A3W_buildingLootWeapons", 1] call getPublicVar == 0) then
@@ -108,6 +114,7 @@ getUsedclasses = {
 getListBuildingPositionjunction = {
 	_tmpTstPlace = _this select 0;
 	_randomweapontestint = 0.01;    //Sets the highintervals in which weaponpositions are tested. (Lower = slower, but more accurate. Higher = faster, but less accurate.)
+	//TODO DEBUGGING, UNCOMMENT _nearLootdist = 0.5;
 	_nearLootdist = 0.5;
 	{
 		_buildingname = _x;
@@ -173,7 +180,7 @@ getListBuildingPositionjunction = {
 			};
 			//save final position Index & adjustments to list
 			if (_poscount != 0) then {
-				//diag_log format["-- LOOTSPAWNER DEBUG add to Buildingpositions_list: v%1v v%2v v%3v added", _buildingname, _posIdxlist, _posAdjustZlist];
+				diag_log format["-- LOOTSPAWNER DEBUG add to Buildingpositions_list: v%1v v%2v v%3v added", _buildingname, _posIdxlist, _posAdjustZlist];
 				Buildingpositions_list pushBack [_buildingname, _posIdxlist, _posAdjustZlist];
 			} else {
 				diag_log format["-- !!LOOTSPAWNER WARNING!! in Buildingstoloot_list: %1 has no building positions --", _buildingname];

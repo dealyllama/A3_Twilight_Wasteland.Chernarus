@@ -33,7 +33,11 @@ DONE: Subset Optics to the group that will actually span most NATO guns, lots of
 
 DONE: Get Stores up and running with appropriate gear and prices
 
-TODO: See if I can get the Chernarus building updates up and running: https://github.com/IanHardy/ChernarusBuildings (Try instead of building replacer)
+DONE: See if I can get the Chernarus building updates up and running: https://github.com/IanHardy/ChernarusBuildings (Try instead of building replacer)
+
+TODO: See if I can get loot spawning in as many of the new buildings as possible
+
+TODO: Add new locations as territories
 
 TODO: Add Bor Military base to the mission map
 

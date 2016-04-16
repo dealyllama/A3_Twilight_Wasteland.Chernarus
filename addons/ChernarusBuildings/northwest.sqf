@@ -5230,14 +5230,14 @@ if (true) then
   _this setPos [3884.2446, 10920.485, 0.038961664];
 };
 
-_vehicle_1944 = objNull;
+/*_vehicle_1944 = objNull;
 if (true) then
 {
   _this = createVehicle ["Body2", [3872.9849, 10930.709, -3.0517578e-005], [], 0, "CAN_COLLIDE"];
   _vehicle_1944 = _this;
   _this setDir -122.28428;
   _this setPos [3872.9849, 10930.709, -3.0517578e-005];
-};
+};*/
 
 _vehicle_1947 = objNull;
 if (true) then
@@ -5248,7 +5248,7 @@ if (true) then
   _this setPos [3884.3198, 10925.283, 6.1035156e-005];
 };
 
-_vehicle_1950 = objNull;
+/*_vehicle_1950 = objNull;
 if (true) then
 {
   _this = createVehicle ["Body2", [3893.1394, 10879.993, -6.1035156e-005], [], 0, "CAN_COLLIDE"];
@@ -5265,6 +5265,7 @@ if (true) then
   _this setDir -102.46079;
   _this setPos [3885.2617, 10866.324, 6.1035156e-005];
 };
+*/
 
 /*
 _vehicle_1956 = objNull;

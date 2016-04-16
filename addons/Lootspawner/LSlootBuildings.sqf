@@ -72,7 +72,7 @@ Buildingstoloot_list =
 
 	//custom buildings
 	["Land_Airport_left_F", 1],
-	["Land_Airport_center_F", 1],
+	//["Land_Airport_center_F", 1],
 	["Land_Airport_right_F", 1],
 	["Land_i_Barracks_V1_F", 1],
 	["Land_i_Barracks_V2_F", 1],
@@ -80,10 +80,10 @@ Buildingstoloot_list =
 	["Land_Airport_Tower_F", 1],
 	["Land_Mil_Barracks_i_EP1", 1],
 	["Land_MilOffices_V1_F", 1],
-	//["C130J_wreck_EP1", 1],
+	["C130J_wreck_EP1", 1],
 	["Land_Offices_01_V1_F", 1],
 
-	//building replacer buildings
+	/*//building replacer buildings
 	["Land_i_Stone_Shed_V3_F", 2],
 	["Land_dp_mainFactory_F", 2],
 	["Land_i_House_Small_02_V1_F", 0],
@@ -109,6 +109,16 @@ Buildingstoloot_list =
 	["Land_i_House_Big_02_V2_dam_F", 0],
 	["Land_i_Shop_01_V3_dam_F", 0],
 	["Land_u_Shop_01_V1_F", 2],	
-	["Land_ReservoirTower_F", 2]
+	["Land_ReservoirTower_F", 2]*/
+
+	//ChernarusBuildings Buildings
+	["WarfareBAirport", 1],
+	["Land_Fort_Watchtower", 1],
+	["CDF_WarfareBFieldhHospital", 1],
+	["USMC_WarfareBFieldhHospital", 1],
+	["Bunker_PMC", 1],
+	["Land_Mil_Guardhouse", 1],
+	["Land_Mil_Repair_center_EP1", 1],
+	["Land_Mil_House", 1]
 
 ];

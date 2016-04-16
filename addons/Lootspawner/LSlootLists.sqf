@@ -57,9 +57,9 @@ lootWeapon_list =
 			"acc_pointer_IR",
 
 			//Supressors
-			"CUP_muzzle_snds_M16_camo",
-			"CUP_muzzle_snds_M14",
-			"CUP_muzzle_Bizon",
+//			"CUP_muzzle_snds_M16_camo",
+//			"CUP_muzzle_snds_M14",
+//			"CUP_muzzle_Bizon",
 			"CUP_muzzle_PB6P9",
 			"CUP_muzzle_PBS4",
 			"CUP_muzzle_snds_M9",
@@ -108,7 +108,7 @@ lootMagazine_list =
 		[
 			"CUP_30Rnd_9x19_MP5",
 			"CUP_64Rnd_9x19_Bizon_M",
-			"CUP_30Rnd_762x39_AK47_M",
+			//"CUP_30Rnd_762x39_AK47_M",
 			"CUP_20Rnd_762x51_FNFAL_M",
 			"CUP_30Rnd_556x45_Stanag",
 			"CUP_20Rnd_556x45_Stanag",
